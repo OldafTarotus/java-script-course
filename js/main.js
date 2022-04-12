@@ -1,8 +1,8 @@
 /*
     Output to screen
-    - window.alert()
-    - document.write()
-    - console.log()
+    - Window.Alert()
+    - Document.Write()
+    - Console.Log()
     Syntax
 */
 // this mean start work after load
@@ -14,7 +14,7 @@ window.onload = function () {
 // window.alert("click and you will lose your file");
 // document.write("<h2>this page to <span>know</span> a little about js code</h2>");
 // console.log("You can see all action from here");
-
+------------------------------------------------------------------------------------------------------------------------------
 /*
     Console Methods <---------------
     - log
@@ -36,7 +36,7 @@ console.log("Hello From %cOldaf %cTarotus","color: red; font-size: 30px", "color
 var anything = "ahmed";
 console.log("Hello " + anything);
 console.log('hello ${anything}');
-
+------------------------------------------------------------------------------------------------------------------------------
 /*
     Data Types Intro
     - String => Any character
@@ -57,3 +57,54 @@ console.log(typeof true);
 console.log(typeof false);
 console.log(typeof undefined);
 console.log(typeof null);
+
+------------------------------------------------------------------------------------------------------------------------------
+/*
+    Variables intro
+    - what is variable ?
+    - why we use variables ?
+    - Declare a variable and use 
+    - syntax (keyword | variable name | assignment operator | variable value)
+    - multiple variables in the same line 
+    - id and global variable
+    - loosely typed vs strongly types
+*/
+
+var user ="Ahmed"
+var age ="30"
+or 
+// var user ="ahmed", age = 30;
+
+console.log(user);
+console.log =(age);
+------------------------------------------------------------------------------------------------------------------------------
+/*
+    Identifiers
+    - Name conventions and rules
+    - Reserved words
+*/
+
+var UserName ="Ahmed";
+console.log(UserName);
+-----------------------------------------------------------------------------------------------------------------------------
+
+/*
+    var 
+    - Redeclare (yes)
+    - Access Before Declare (Undefined)
+    - Variable Scope Drama [Added to Window] ()
+    - Block or Function Scope
+
+    Let
+    - Redeclare (no => Error)
+    - Access Before Declare (Error)
+    - Variable Scope Drama [Added to Window] ()
+    - Block or Function Scope
+
+    Const 
+    - Redeclare (no => Error)
+    - Access Before Declare (Error)
+    - Variable Scope Drama [Added to Window] ()
+    - Block or Function Scope
+*/
+-------------------------------------------------------------------------------------------------------------------------------
