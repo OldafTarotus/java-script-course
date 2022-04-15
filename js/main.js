@@ -203,30 +203,67 @@ Template Literals (Template Strings)
     -- Decrement [ Post / Pre ]
 */
 
-console.log(10 + 20);
-console.log(10 + "Ahmed");
+// console.log(10 + 20);
+// console.log(10 + "Ahmed");
 
-console.log(10 - 20);
-console.log(10 - "Ahmed");
-console.log(typeof NaN);
+// console.log(10 - 20);
+// console.log(10 - "Ahmed");
+// console.log(typeof NaN);
 
-console.log(10 * 20);
-console.log(10 * -20);
+// console.log(10 * 20);
+// console.log(10 * -20);
 
-console.log(20 / 5);
-console.log(20 / 3);
+// console.log(20 / 5);
+// console.log(20 / 3);
 
-console.log(2 ** 4);
-console.log(2 * 2 * 2 * 2);
+// console.log(2 ** 4);
+// console.log(2 * 2 * 2 * 2);
 
-console.log(10 % 2);
-console.log(11 % 2);
-
-
-console.log(post++  ++pre);
-console.log(post-- --pre);
+// console.log(10 % 2);
+// console.log(11 % 2);
 
 
+// console.log(post++  ++pre);
+// console.log(post-- --pre);
+// -----------------------------------------------------------------------------------------------------------------------
+
+/*
+    - + Unary Plus [Return Number If Its Not Number]
+    - + Unary Negation [Return Number If Its Not Number + Negates It]
+    Tests
+    - Normal Number
+    - String Number
+    - String Negative Number
+    - String Text
+    - Float
+    - Hexadecimal Numeral System => 0xff
+    - Null
+    - False
+    - True
+*/
+
+// console.log(+100);
+// console.log(+"100");
+// console.log(+"-100");
+// console.log(+"Ahmed");
+// console.log(+"15.5");
+// console.log(+0xff);
+// console.log(+null);
+// console.log(+false);
+// console.log(+true);
+
+// console.log(-100);
+// console.log(-"100");
+// console.log(-"-100");
+// console.log(-"Ahmed");
+// console.log(-"15.5");
+// console.log(-0xff);
+// console.log(-null);
+// console.log(-false);
+// console.log(-true);
+
+// console.log(Number("100"));
+// ------------------------------------------------------------------------------------------------------------
 
 
 
