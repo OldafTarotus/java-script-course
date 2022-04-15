@@ -159,15 +159,32 @@ Template Literals (Template Strings)
 // console.log(`${a} "" '' \\ ${b} 
 // ${c} ${d}`)
 
-let title ="Oldaf";
-let desc ="Oldaf Tarotus Designer";
+// let title ="Oldaf";
+// let desc ="Oldaf Tarotus Designer";
 
-let markup = `
-    <div class="card">
-        <div class="child">
-        <h2>${title}</h2>
-        <p>${desc}</p>
-        </div>
+// let markup = `
+//     <div class="card">
+//         <div class="child">
+//         <h2>${title}</h2>
+//         <p>${desc}</p>
+//         </div>
+//     </div>
+//     `;
+//     document.write(markup);
+
+    // ---------------------------------------------------------------------------------------------------------
+
+/*
+    Challenge
+*/
+
+let The_Title ="Oldaf", The_Description ="Oldaf Tarotus", The_Date ="25/10";
+
+let markup =`
+    <div class="containers">
+        <h3>${The_Title}</h3>
+        <p>${The_Description}</p>
+        <span>${The_Date}</span>
     </div>
-    `;
-    document.write(markup);
+`;
+document.write(markup)
