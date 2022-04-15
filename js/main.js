@@ -242,6 +242,7 @@ Template Literals (Template Strings)
     - True
 */
 
+// Unary Plus:-
 // console.log(+100);
 // console.log(+"100");
 // console.log(+"-100");
@@ -252,6 +253,7 @@ Template Literals (Template Strings)
 // console.log(+false);
 // console.log(+true);
 
+// Unary Negation:-
 // console.log(-100);
 // console.log(-"100");
 // console.log(-"-100");
@@ -264,6 +266,44 @@ Template Literals (Template Strings)
 
 // console.log(Number("100"));
 // ------------------------------------------------------------------------------------------------------------
+
+/*
+    Type Coercion (Type Casting)
+    - +
+    - - 
+    - "" - 2 
+    - false - ture
+*/
+
+// let a ="10";
+// let b =20;
+// let c =true;
+
+// console.log(+a + b);
+// console.log(Number(a) + b);
+
+// console.log(a - b);
+// console.log(b - a);
+
+
+// console.log("" - 2);
+// console.log(+"");
+// console.log(0 - 2);
+
+// console.log(false - true);
+// console.log(+false - +true);
+
+// console.log(b + c);
+// console.log(+a + b + c);
+// -------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 
