@@ -143,7 +143,7 @@
 // document.write(a + b)
 // document.write(a + " " + b)
 // console.log(a, b)
-// -----------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------
 
 /*
 Template Literals (Template Strings)
@@ -172,19 +172,62 @@ Template Literals (Template Strings)
 //     `;
 //     document.write(markup);
 
-    // ---------------------------------------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------------------------------------
 
 /*
     Challenge
 */
 
-let The_Title ="Oldaf", The_Description ="Oldaf Tarotus", The_Date ="25/10";
+// let The_Title ="Oldaf", The_Description ="Oldaf Tarotus", The_Date ="25/10";
 
-let markup =`
-    <div class="containers">
-        <h3>${The_Title}</h3>
-        <p>${The_Description}</p>
-        <span>${The_Date}</span>
-    </div>
-`;
-document.write(markup)
+// let markup =`
+//     <div class="containers">
+//         <h3>${The_Title}</h3>
+//         <p>${The_Description}</p>
+//         <span>${The_Date}</span>
+//     </div>
+// `;
+// document.write(markup)
+
+// --------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Arithmetic Operators
+    + Addition
+    - Subtraction
+    * Multiplication
+    / Division
+    ** Exponetiation (Es7)
+    % Modulus (Division)
+    ++ Increment [ Post / Pre ]
+    -- Decrement [ Post / Pre ]
+*/
+
+console.log(10 + 20);
+console.log(10 + "Ahmed");
+
+console.log(10 - 20);
+console.log(10 - "Ahmed");
+console.log(typeof NaN);
+
+console.log(10 * 20);
+console.log(10 * -20);
+
+console.log(20 / 5);
+console.log(20 / 3);
+
+console.log(2 ** 4);
+console.log(2 * 2 * 2 * 2);
+
+console.log(10 % 2);
+console.log(11 % 2);
+
+
+console.log(post++  ++pre);
+console.log(post-- --pre);
+
+
+
+
+
+
