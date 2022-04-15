@@ -46,17 +46,17 @@ console.log('hello ${anything}');
     - Boolean
 */
 
-console.log("Oldaf Tarouts");
-console.log(typeof "Oldaf Tarotus");
-console.log(typeof 5000);
-console.log(typeof 5000.99);
-console.log(typeof [10, 15, 20]);  Array
-console.log(typeof ["Ol", "Ta", "Ah"]); array
-console.log(typeof {name: "Oldaf", age: 30, country: "eg"});
-console.log(typeof true);
-console.log(typeof false);
-console.log(typeof undefined);
-console.log(typeof null);
+console.log("Oldaf Tarouts");  
+console.log(typeof "Oldaf Tarotus");                                  String
+console.log(typeof 5000);                                             Number
+console.log(typeof 5000.99);                                          Number
+console.log(typeof [10, 15, 20]);                                     Array  - Opject
+console.log(typeof ["Ol", "Ta", "Ah"]);                               Array  - Opject
+console.log(typeof {name: "Oldaf", age: 30, country: "eg"});          Opject
+console.log(typeof true);                                             Boolean
+console.log(typeof false);                                            Boolean
+console.log(typeof undefined);                                        Undefined
+console.log(typeof null);                                             Opject
 
 ------------------------------------------------------------------------------------------------------------------------------
 /*
@@ -77,6 +77,10 @@ or
 
 console.log(user);
 console.log =(age);
+
+// change any att from document 
+console.log("Hello");
+hello.innerhtml ="option"
 ------------------------------------------------------------------------------------------------------------------------------
 /*
     Identifiers
@@ -86,22 +90,26 @@ console.log =(age);
 
 var UserName ="Ahmed";
 console.log(UserName);
+or 
+console.log(User_Name);
+console.log(User-Name);
+console.log(user_name); etc  must be first character no a number
 -----------------------------------------------------------------------------------------------------------------------------
 
 /*
-    var 
+    var     <<<<<<<<<<
     - Redeclare (yes)
     - Access Before Declare (Undefined)
     - Variable Scope Drama [Added to Window] ()
     - Block or Function Scope
 
-    Let
+    Let     <<<<<<<<<<
     - Redeclare (no => Error)
     - Access Before Declare (Error)
     - Variable Scope Drama [Added to Window] ()
     - Block or Function Scope
 
-    Const 
+    Const   <<<<<<<<<<
     - Redeclare (no => Error)
     - Access Before Declare (Error)
     - Variable Scope Drama [Added to Window] ()
