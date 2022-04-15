@@ -121,14 +121,53 @@
     \ Escape + Line Continue
     \n
 */
-console.log('Ahmed Naser "Elsayed"')
-console.log("Ahmed Naser 'Elsayed'")
-console.log('Ahmed Naser \'Elsayed\'')
-console.log("Ahmed Naser \"Elsayed\"")
-console.log("Ahmed \\Naser \"Elsayed\"")
-console.log("ahmed \
-Naser \
-Elsayed")
-console.log("Ahmed \nNaser \nElsayed")
+// console.log('Ahmed Naser "Elsayed"')
+// console.log("Ahmed Naser 'Elsayed'")
+// console.log('Ahmed Naser \'Elsayed\'')
+// console.log("Ahmed Naser \"Elsayed\"")
+// console.log("Ahmed \\Naser \"Elsayed\"")
+// console.log("ahmed \
+// Naser \
+// Elsayed")
+// console.log("Ahmed \nNaser \nElsayed")
 
+// -----------------------------------------------------------------------------------------------------------------------
 
+/*
+    Concatenation  +
+*/
+
+// let a ="We Love "
+// let b ="Java Script"
+
+// document.write(a + b)
+// document.write(a + " " + b)
+// console.log(a, b)
+// -----------------------------------------------------------------------------------------------------------------------
+
+/*
+Template Literals (Template Strings)
+*/
+
+// let a ="We Love";
+// let b ="Java Script";
+// let c ="And";
+// let d ="Programming";
+
+// // console.log(a + " \"\" " + b + "\n" + c + " " +  d);
+
+// console.log(`${a} "" '' \\ ${b} 
+// ${c} ${d}`)
+
+let title ="Oldaf";
+let desc ="Oldaf Tarotus Designer";
+
+let markup = `
+    <div class="card">
+        <div class="child">
+        <h2>${title}</h2>
+        <p>${desc}</p>
+        </div>
+    </div>
+    `;
+    document.write(markup);
