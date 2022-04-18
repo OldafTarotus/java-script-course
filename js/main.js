@@ -297,10 +297,80 @@ Template Literals (Template Strings)
 // console.log(+a + b + c);
 // -------------------------------------------------------------------------------------------------------------------
 
+/*
+    Assignment Operator
+*/
 
+// let a = 10;
 
+// a = a + 20;
+// a = a + 70;
 
+// all the same
+// a +=100;  >>>>> // a = a + 100
+// a -=50;   >>>>> // a = a 50
+// a /=50;   >>>>> // a = a / 50
 
+// console.log(a);
+// -----------------------------------------------------------------------------------------------------------------------
+
+/*
+    Challenge 1
+*/
+
+// let a = 10;
+// let b = "20";
+// let c = 80;
+
+// console.log(++a + +b++ + +c++ - +a++);
+// console.log(++a + -b + +c++ - -a++ + +a);
+// console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
+
+/*
+    [++a] [+]
+    [++a]
+    - Value:
+    - Explain:
+    [+]
+    - Explain
+*/
+
+/*
+    Challenge 2
+*/
+// let d = "-100";
+// let e = "20";
+// let f = 30;
+// let g = true;
+
+//Only Use Varibles Value
+//Do Not  Use Varibles Twice
+
+// console.log(); // 2000
+// console.log(); // 173
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Number
+    - Double Precision
+    - Syntactic Sugar "_"
+    - e
+    - **
+    - With Decimal
+    - Number + Bigint
+    - Number Min Value
+    - Number Max Value
+*/
+// console.log(1000000);
+// console.log(1_000_000);
+// console.log(1e6);
+// console.log(10 ** 6);
+// console.log(10 * 10 * 10 * 10 * 10 * 10);
+// console.log(1000000.00);
+
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Number.MAX_VALUE);
+// console.log(Number.MAX_VALUE + 1000);   <== you will not receive any change 
 
 
 
