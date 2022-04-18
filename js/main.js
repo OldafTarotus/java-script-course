@@ -429,8 +429,55 @@ Template Literals (Template Strings)
 
 // console.log(Math.trunc(99.5));
 // -------------------------------------------------------------------------------------------------------------------------
+/*
+    Number Challenge
+*/
+// let a = 1_00;
+// let b = 2_00.5;
+// let c = 1e2;
+// let d = 2.4;
 
+// // Find Smallest Number In All Variable And Retun SVGAnimatedInteger
+// console.log();
 
+// // Use Variable a + d One Time To Get The Needed Output
+// console.log();
 
+// // Get Integer "2" From d Variable With 4 Methods
+// console.log();
+// console.log();
+// console.log();
+// console.log();
+
+// // Use Variable b + d to Get This Values
+// console.log(); // 66.67 =>
+// console.log(); // 67 ==>
+// -------------------------------------------------------------------------------------------------------------------------
+/*
+    String Methods
+    - Access With Index
+    - Access With CharAt()
+    - Length
+    - Trim()
+    - ToUpperCase()
+    - ToLowerCase()
+    - Chain Methods
+*/
+let TheName =   "  Ahmed  "
+
+console.log(TheName);
+console.log(TheName[1]);
+console.log(TheName[5]);
+
+console.log(TheName.charAt(1));
+console.log(TheName.charAt(5));
+
+console.log(TheName.length);
+console.log(TheName.trim());
+
+console.log(TheName.toUpperCase());
+console.log(TheName.toLowerCase());
+
+console.log(TheName.trim().charAt(2).toUpperCase());
 
 
