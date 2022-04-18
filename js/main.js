@@ -371,8 +371,64 @@ Template Literals (Template Strings)
 // console.log(Number.MAX_SAFE_INTEGER);
 // console.log(Number.MAX_VALUE);
 // console.log(Number.MAX_VALUE + 1000);   <== you will not receive any change 
+// -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Number Methods
+    - Two Dots To Call A Methods
+    - ToString()
+    - ToFixed()
+    - ParseInt()
+    - ParseFloat()
+    - IsInteger() [Es6]
+    - IsNaN() [Es6]
+*/
+// console.log((100).toString());
+// console.log(100.10.toString());
 
+// console.log(100.554555.toFixed(3));
+
+// console.log(Number("100 ahmed"));
+// console.log(+"100 ahmed");
+// console.log(parseInt("100 ahmed"));
+// console.log(parseInt("ahmed 100 ahmed"));
+// console.log(parseInt("100.500 ahmed"));
+// console.log(parseFloat("100.500 osama"));
+
+// console.log(Number.isInteger("100"));
+// console.log(Number.isInteger(100.500));
+// console.log(Number.isInteger(100));
+
+// console.log(Number.isNaN(100));
+// console.log(Number.isNaN("ahmed" / 100));
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Math Object
+    - round()
+    - ceil()
+    - floor()
+    - min()
+    - max()
+    - pow()
+    - random()
+    - trunc() [Es6]
+*/
+// console.log(Math.round(99.2));
+// console.log(Math.round(99.5));
+
+// console.log(Math.ceil(99.2));
+// console.log(Math.floor(99.9));
+
+// console.log(Math.min(10, 20, 100, -100, 90));
+// console.log(Math.max(10, 20, 100, -100, 90));
+
+// console.log(Math.pow(2, 4));
+
+// console.log(Math.random());
+
+// console.log(Math.trunc(99.5));
+// -------------------------------------------------------------------------------------------------------------------------
 
 
 
