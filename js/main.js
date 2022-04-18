@@ -463,21 +463,90 @@ Template Literals (Template Strings)
     - ToLowerCase()
     - Chain Methods
 */
-let TheName =   "  Ahmed  "
+// let TheName =   "  Ahmed  "
 
-console.log(TheName);
-console.log(TheName[1]);
-console.log(TheName[5]);
+// console.log(TheName);
+// console.log(TheName[1]);
+// console.log(TheName[5]);
 
-console.log(TheName.charAt(1));
-console.log(TheName.charAt(5));
+// console.log(TheName.charAt(1));
+// console.log(TheName.charAt(5));
 
-console.log(TheName.length);
-console.log(TheName.trim());
+// console.log(TheName.length);
+// console.log(TheName.trim());
 
-console.log(TheName.toUpperCase());
-console.log(TheName.toLowerCase());
+// console.log(TheName.toUpperCase());
+// console.log(TheName.toLowerCase());
 
-console.log(TheName.trim().charAt(2).toUpperCase());
+// console.log(TheName.trim().charAt(2).toUpperCase());
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    String Methods
+    - IndexOf(Value [Mand], Start [Opt] 0)
+    - LastIndexOf(Value [Mand], Start [Opt] Length)
+    - Slice(Start [Mand], End [Opt] Not Include End)
+    - Repeat(Times) [Es6]
+    - Split(Separator [Opt], Limit [Opt])
+*/
+
+// let a = "Ahmed|Naser Elsayed";
+
+// console.log(a.indexOf("Naser"));
+// console.log(a.indexOf("Naser", 7))
+// console.log(a.indexOf("N")); //6
+// console.log(a.lastIndexOf("s")); //14
+
+// console.log(a.slice(0));
+// console.log(a.slice(5, 11));
+// console.log(a.slice(-11, -5));
+
+// console.log(a.repeat(5));
+
+// console.log(a.split(" "));
+// console.log(a.split(""));
+// console.log(a.split("|"));
+// console.log(a.split("", 5));
+// console.log(a.split(" ", 5));
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    String Methods
+        - Substring (Start [Mand], End [Opt] Not Including End)
+        ----- Start > End Will Swap
+        ----- Start < 0 IT Start From 0
+        ----- Use Length To Get Last Character 
+        - Substr(Start [Mand], Character To Extract)
+        ----- Start >= Length =""
+        ----- Negative Start From End
+        - Includes (Value [Mand], Start [Opt] Default 0 [Es6])
+        - StartsWith (Value [Mand], Start [Opt] Default 0 [Es6])
+        - EndsWith (Value [Mand], Length [Opt] Default Full Length [Es6])
+*/
+
+// let a = "Ahmed Naser Elsayed";
+
+// console.log(a.length)
+
+// console.log(a.substring(2, 6));
+// console.log(a.substring(6, 2));
+// console.log(a.substring(-10, 6)); // 0 - 6 
+
+// console.log(a.substring(a.length - 1));
+// console.log(a.substring(a.length - 7));
+// console.log(a.substring(a.length - 7, a.length - 5));
+
+// console.log(a.includes("Elsayed"));
+// console.log(a.includes("Elsayed", 13)); 
+
+// console.log(a.startsWith("E"));
+// console.log(a.startsWith("E", 2));
+// console.log(a.startsWith("m", 2));
+
+// console.log(a.endsWith("d"));
+// console.log(a.endsWith("l"));
+// console.log(a.endsWith("l", 14));
+// -------------------------------------------------------------------------------------------------------------------------
+
 
 
