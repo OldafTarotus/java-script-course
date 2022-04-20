@@ -613,22 +613,58 @@ Template Literals (Template Strings)
 // let price = 100;
 // let discount = false;
 // let discountAmount = 30;
-// // let country = "egypt";
+// let country = "egypt";
 // // let country = "syria";
-// let country = "ksa";
+// // let countr   y = "ksa";
+// let student = true;
 
 
 // if (discount === true) {
 //     price -= discountAmount; // price = price - DiscountAmout
 // } else if (country === "egypt") {
-//     price -= 40;
+//     price -= discountAmount + 10;
+//     if (student === true) {
+//         price -= discountAmount + 20
+//     }
 // } else if (country === "syria") {
-//     price -= 60;
+//     price -= discountAmount + 20;
 // } else {
-//     price -= 10
+//     price -= discountAmount - 20
 // }
 
 // console.log(price);
 
+// -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Conditional (Ternary) Operator
+*/
 
+// let TheName = "Mona";
+// let TheGender = "female";
+// let TheAge = 30;
+
+// if (TheGender === "male") {
+//     console.log("Mr");
+// } else {
+//     console.log("Mrs");
+// }
+
+// // Condition ? If True : If false
+
+// TheGender === "male" ? console.log("Mr") : console.log("Mrs");
+// let result = TheGender === "male" ? "Mr" : "Mrs";
+
+// document.write(result);
+
+// console.log(TheGender === "male" ? "Mr" : "Mrs");  
+
+// console.log(`Hello ${TheGender === "male" ? "Mr" : "Mrs"} ${TheName}`);
+
+// TheAge < 20 
+//     ? console.log(20) 
+//     : TheAge > 20 && TheAge < 60 
+//     ? console.log("20 to 60") 
+//     : TheAge > 60 
+//     ? console.log("60+") 
+//     : console.log("Unknown");
