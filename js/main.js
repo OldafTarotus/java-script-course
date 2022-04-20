@@ -548,5 +548,39 @@ Template Literals (Template Strings)
 // console.log(a.endsWith("l", 14));
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Comparison Operators
+    - == Equal
+    - != Not Equal
+
+    - === Identical
+    - !== Not Identical
+
+    - > Larger Than
+    - >= Larger Than Or Equal
+
+    - < Smaller Than
+    - <= Smaller Than Or Equal 
+*/
+
+// console.log(10 == "10"); // Compare Value Only
+// console.log(-100 == "-100"); // Compare Value Only
+// console.log(10 != "10"); // Compare Value Only
+
+// console.log(10 === "10"); // Compare Value Only + Type
+// console.log(10 !== "10"); // Compare Value Only + Type
+// console.log(10 !== 10); // Compare Value Only + Type
+
+// console.log(10 > 20);
+// console.log(10 > 10);
+// console.log(10 >= 10);
+
+// console.log(10 < 20);
+// console.log(10 < 20);
+// console.log(10 <= 10);
+
+// console.log(typeof "Ahmed" === typeof "Mohamed"); //  Both same tring & Same value by typeof
+// -------------------------------------------------------------------------------------------------------------------------
+
 
 
