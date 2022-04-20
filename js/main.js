@@ -599,5 +599,36 @@ Template Literals (Template Strings)
 // console.log(10 == "10" || 10 > 8 || 10 > 50);
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Control Flow
+    - if 
+    - else if
+    - else
+
+    if (Condition) {
+        // Block Of Code
+    }
+*/
+
+// let price = 100;
+// let discount = false;
+// let discountAmount = 30;
+// // let country = "egypt";
+// // let country = "syria";
+// let country = "ksa";
+
+
+// if (discount === true) {
+//     price -= discountAmount; // price = price - DiscountAmout
+// } else if (country === "egypt") {
+//     price -= 40;
+// } else if (country === "syria") {
+//     price -= 60;
+// } else {
+//     price -= 10
+// }
+
+// console.log(price);
+
 
 
