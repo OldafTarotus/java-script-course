@@ -668,3 +668,65 @@ Template Literals (Template Strings)
 //     : TheAge > 60 
 //     ? console.log("60+") 
 //     : console.log("Unknown");
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Logical Or ||
+    -- Null + Undefined + Any Falsy Value
+    Nullish Coalescing Operator ??
+    -- Null + Undefined
+*/
+
+// console.log(Boolean(100));
+// console.log(Boolean(-100));
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean(null));
+
+// let price = 0; // ("" or  null or any false value)
+
+// console.log(`The Price is ${price || 200}`);
+// console.log(`The Price is ${price ?? 200}`);
+
+// document.write(`The Price is ${price || 200}`);
+// document.write(`The Price is ${price ?? 200}`);
+// // -------------------------------------------------------------------------------------------------------------------------
+// /*
+//     If Challenge
+// */
+
+// let a = 10;
+
+// if (a < 10) {
+//     console.log(10);
+// } else if (a >= 10 && a<= 40) {
+//     console.log("10 to 40");
+// } else if (a > 40) {
+//     console.log("unknown")
+// }
+
+// // Write With Ternary If Syntax
+// let st = "abd elsalam aref";
+// if ("????" === "34") {
+//     console.log("good");
+// }
+
+// // w Poition May Change
+// if ("????" === "w") {
+//     console.log("good");
+// }
+
+// if ("????" !== "string") {
+//     console.log("good");
+// }
+
+// if ("????" === "number") {
+//     console.log("good");
+// }
+
+// if ("????" === "AbdAbd") {
+//     console.log("good");
+// }
+// // -------------------------------------------------------------------------------------------------------------------------
+
+
