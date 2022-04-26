@@ -1,5 +1,5 @@
 /*
-    Output to screen
+    Output to screen <---------------
     - Window.Alert()
     - Document.Write()
     - Console.Log()
@@ -15,18 +15,16 @@
 // document.write("<h2>this page to <span>know</span> a little about js code</h2>");
 // console.log("You can see all action from here");
 // ------------------------------------------------------------------------------------------------------------------------------
+
 /*
     Console Methods <---------------
     - log
     - error
     - table
-
     Web Api
-
     Styling Console
     - Directive  %c
 */
-
 // console.log("Welcome to Js");
 // console.error("You will Lose Your Window");
 // console.table(["Ahmed", "Mohamed","Naser"]);
@@ -37,8 +35,9 @@
 // console.log("Hello " + anything);
 // console.log('hello ${anything}');
 // ------------------------------------------------------------------------------------------------------------------------------
+
 /*
-    Data Types Intro
+    Data Types Intro <---------------
     - String => Any character
     - Number => Any Number
     - Array => Object
@@ -57,10 +56,10 @@
 // console.log(typeof false);                                            Boolean
 // console.log(typeof undefined);                                        Undefined
 // console.log(typeof null);                                             Opject
-
 // ------------------------------------------------------------------------------------------------------------------------------
+
 /*
-    Variables intro
+    Variables intro <---------------
     - what is variable ?
     - why we use variables ?
     - Declare a variable and use 
@@ -69,7 +68,6 @@
     - id and global variable
     - loosely typed vs strongly types
 */
-
 // var user ="Ahmed"
 // var age ="30"
 // or 
@@ -82,8 +80,9 @@
 // console.log("Hello");
 // hello.innerhtml ="option"
 // ------------------------------------------------------------------------------------------------------------------------------
+
 /*
-    Identifiers
+    Identifiers <---------------
     - Name conventions and rules
     - Reserved words
 */
@@ -97,27 +96,28 @@
 // -----------------------------------------------------------------------------------------------------------------------------
 
 /*
-    var     <<<<<<<<<<
+    var     <---------------
     - Redeclare (yes)
     - Access Before Declare (Undefined)
     - Variable Scope Drama [Added to Window] ()
     - Block or Function Scope
 
-    Let     <<<<<<<<<<
+    Let     <---------------
     - Redeclare (no => Error)
     - Access Before Declare (Error)
     - Variable Scope Drama [Added to Window] ()
     - Block or Function Scope
 
-    Const   <<<<<<<<<<
+    Const   <---------------
     - Redeclare (no => Error)
     - Access Before Declare (Error)
     - Variable Scope Drama [Added to Window] ()
     - Block or Function Scope
 */
 // -------------------------------------------------------------------------------------------------------------------------------
+
 /*
-    String Syntax + Character Escape Sequences
+    String Syntax + Character Escape Sequences <---------------
     \ Escape + Line Continue
     \n
 */
@@ -130,13 +130,11 @@
 // Naser \
 // Elsayed")
 // console.log("Ahmed \nNaser \nElsayed")
-
 // -----------------------------------------------------------------------------------------------------------------------
 
 /*
-    Concatenation  +
+    Concatenation  +   <---------------
 */
-
 // let a ="We Love "
 // let b ="Java Script"
 
@@ -146,9 +144,8 @@
 // ----------------------------------------------------------------------------------------------------------------------
 
 /*
-Template Literals (Template Strings)
+    Template Literals (Template Strings) <---------------
 */
-
 // let a ="We Love";
 // let b ="Java Script";
 // let c ="And";
@@ -171,11 +168,10 @@ Template Literals (Template Strings)
 //     </div>
 //     `;
 //     document.write(markup);
-
-    // ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
 
 /*
-    Challenge
+    Challenge <---------------
 */
 
 // let The_Title ="Oldaf", The_Description ="Oldaf Tarotus", The_Date ="25/10";
@@ -188,11 +184,10 @@ Template Literals (Template Strings)
 //     </div>
 // `;
 // document.write(markup)
-
 // --------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Arithmetic Operators
+    Arithmetic Operators <---------------
     + Addition
     - Subtraction
     * Multiplication
@@ -228,8 +223,8 @@ Template Literals (Template Strings)
 // -----------------------------------------------------------------------------------------------------------------------
 
 /*
-    - + Unary Plus [Return Number If Its Not Number]
-    - + Unary Negation [Return Number If Its Not Number + Negates It]
+    - + Unary Plus [Return Number If Its Not Number] <---------------
+    - + Unary Negation [Return Number If Its Not Number + Negates It] <---------------
     Tests
     - Normal Number
     - String Number
@@ -268,7 +263,7 @@ Template Literals (Template Strings)
 // ------------------------------------------------------------------------------------------------------------
 
 /*
-    Type Coercion (Type Casting)
+    Type Coercion (Type Casting) <---------------
     - +
     - - 
     - "" - 2 
@@ -298,7 +293,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------
 
 /*
-    Assignment Operator
+    Assignment Operator <---------------
 */
 
 // let a = 10;
@@ -306,8 +301,8 @@ Template Literals (Template Strings)
 // a = a + 20;
 // a = a + 70;
 
-// all the same
-// a +=100;  >>>>> // a = a + 100
+// all the same ( -=  or +=)
+// a +=100;  >>>>> // a = a + 100  
 // a -=50;   >>>>> // a = a 50
 // a /=50;   >>>>> // a = a / 50
 
@@ -315,7 +310,7 @@ Template Literals (Template Strings)
 // -----------------------------------------------------------------------------------------------------------------------
 
 /*
-    Challenge 1
+    Challenge 1  <---------------
 */
 
 // let a = 10;
@@ -351,7 +346,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Number
+    Number <---------------
     - Double Precision
     - Syntactic Sugar "_"
     - e
@@ -374,7 +369,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Number Methods
+    Number Methods <---------------
     - Two Dots To Call A Methods
     - ToString()
     - ToFixed()
@@ -404,7 +399,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Math Object
+    Math Object <---------------
     - round()
     - ceil()
     - floor()
@@ -429,8 +424,9 @@ Template Literals (Template Strings)
 
 // console.log(Math.trunc(99.5));
 // -------------------------------------------------------------------------------------------------------------------------
+
 /*
-    Number Challenge
+    Number Challenge <---------------
 */
 // let a = 1_00;
 // let b = 2_00.5;
@@ -453,8 +449,9 @@ Template Literals (Template Strings)
 // console.log(); // 66.67 =>
 // console.log(); // 67 ==>
 // -------------------------------------------------------------------------------------------------------------------------
+
 /*
-    String Methods
+    String Methods <---------------
     - Access With Index
     - Access With CharAt()
     - Length
@@ -482,7 +479,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    String Methods
+    String Methods <---------------
     - IndexOf(Value [Mand], Start [Opt] 0)
     - LastIndexOf(Value [Mand], Start [Opt] Length)
     - Slice(Start [Mand], End [Opt] Not Include End)
@@ -511,7 +508,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    String Methods
+    String Methods <---------------
         - Substring (Start [Mand], End [Opt] Not Including End)
         ----- Start > End Will Swap
         ----- Start < 0 IT Start From 0
@@ -549,7 +546,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Comparison Operators
+    Comparison Operators <---------------
     - == Equal
     - != Not Equal
 
@@ -583,7 +580,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Logical Operators
+    Logical Operators <---------------
     - ! Not
     - && And 
     - || OR
@@ -600,7 +597,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Control Flow
+    Control Flow <---------------
     - if 
     - else if
     - else
@@ -633,11 +630,10 @@ Template Literals (Template Strings)
 // }
 
 // console.log(price);
-
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Conditional (Ternary) Operator
+    Conditional (Ternary) Operator <---------------
 */
 
 // let TheName = "Mona";
@@ -671,7 +667,7 @@ Template Literals (Template Strings)
 // -------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Logical Or ||
+    Logical Or ||  <---------------
     -- Null + Undefined + Any Falsy Value
     Nullish Coalescing Operator ??
     -- Null + Undefined
@@ -691,8 +687,9 @@ Template Literals (Template Strings)
 // document.write(`The Price is ${price || 200}`);
 // document.write(`The Price is ${price ?? 200}`);
 // // -------------------------------------------------------------------------------------------------------------------------
+
 // /*
-//     If Challenge
+//     If Challenge <---------------
 // */
 
 // let a = 10;
@@ -729,4 +726,22 @@ Template Literals (Template Strings)
 // }
 // // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Switch Statment <---------------
+    Switch(Expression){
+        Case 1:
+            // Code Block
+            break;
+        Case 2:
+            // Code Block
+            break;
+        Default :
+            // Code Block
+    }
+        - Default Ordering
+        - Multiple Match
+        - ===
+ */
+
+let day = "0";
 
