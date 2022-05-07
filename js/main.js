@@ -761,3 +761,29 @@
 //         break;
 // };
 //-------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Arrays
+    - Creat Arrays [Two Methods] new Array() + []
+    - Access Arrays 
+    - Nested Arrays Elements
+    - Change Arrays Elements
+    - Check For Array Array.IsArray(Arr);
+*/
+
+// let myfriend =["ahmed", "Mohamed", "Sayed", ["Omda", "Amro"]];
+
+// console.log(`Hello ${myfriend[0]}`);
+// console.log(`Hello ${myfriend[2]}`);
+// console.log(`${myfriend[1][2]}`);
+// console.log(`Hello ${myfriend[3][1]}`);
+// console.log(`${myfriend[3][1][2]}`);
+
+// console.log(myfriend);
+// myfriend[1] = "gamal";
+// console.log(myfriend);
+// myfriend[3] = ["Gehad", "Sondos"];
+// console.log(myfriend);
+
+// console.log(Array.isArray(myfriend));
+//-------------------------------------------------------------------------------------------------------------------------
