@@ -870,3 +870,37 @@
 // console.log(myfriend.sort().reverse()); // chain how to make 2x function in same line
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Arrays Methods [Slicing]
+    - Slice(Start [Opt], End [Opt] Not including End)
+        - Slice() => All Array
+        - If start is undefined => 0
+        - Negative Count Form End
+        - If End Is  Undefined || > Index = > Slice To The End Array.length
+        - Return New Array 
+    - Splice(Start [Mand], DeleteCount [Opt] [0 No Remove], The Items To Add [Opt])
+        - If Negative => Start From The End
+*/
+// let myfriend = ["Ahmed", "Mohamed", "Sayed", "Osama", "Gamal", "Ameer"];
+// console.log(myfriend);
+// console.log(myfriend.slice());
+// console.log(myfriend.slice(1));
+// console.log(myfriend.slice(1, 3));
+// console.log(myfriend.slice(-3));
+// console.log(myfriend.slice(1, -2));
+// console.log(myfriend.slice(-4, -2));
+// console.log(myfriend);
+
+// myfriend.splice(0, 0, "Sameer", "Samara");
+// console.log(myfriend);
+
+// myfriend.splice(0, 1, "Sameer", "Samara");
+// console.log(myfriend);
+
+// myfriend.splice(0, 2, "Sameer", "Samara");
+// console.log(myfriend);
+
+// myfriend.splice(1, 2, "Sameer", "Samara"); // Start From, Delete, Add 
+// console.log(myfriend);
+//------------------------------------------------------------------------------------------------------------------------
+
