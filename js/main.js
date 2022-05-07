@@ -829,4 +829,33 @@
 // console.log(`Last Name is ${last}`);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Arrays Methods [Search]
+    - indexof(Search Element, From index [opt])
+    - lastindexof(Search Element, From index [opt])
+    - includes(ValueToFind, Fromindex [opt] [es7])
+*/
+// let myfriend = ["Ahmed", "Mohamed", "Sayed", "Alaa", "Ahmed"];
+
+// console.log(myfriend);
+
+// console.log(myfriend.indexOf("Ahmed"));
+// console.log(myfriend.indexOf("Ahmed", 2));
+
+// console.log(myfriend.lastIndexOf("Ahmed"));
+// console.log(myfriend.indexOf("Ahmed", -2));
+
+// console.log(myfriend.includes("Ahmed"));
+// console.log(myfriend.includes("Ahmed", 2));
+
+// if (myfriend.indexOf("osama") === -1) {
+//     console.log("Not Found");
+// }
+
+// console.log(myfriend.indexOf("Osama"));
+// console.log(myfriend.lastIndexOf("Osama"));
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
 
