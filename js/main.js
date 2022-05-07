@@ -904,3 +904,27 @@
 // console.log(myfriend);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Arrays Methods [Joining]
+    - Concat(Array, Array) => Return A New Array
+    - Join(Separator)
+*/
+// let myfriend = ["Ahmed", "Mohamed", "Sayed", "Ali", "Gamal", "Ameer"];
+// let mynewfriend = ["Samar", "Dalya"];
+// let schoolfriend = ["Samar", "Dalya"];
+
+// let allfriend = myfriend.concat(mynewfriend, schoolfriend, "Gehad", [1, 2]);
+
+// console.log(myfriend);
+
+// console.log(allfriend);
+
+// console.log(allfriend.join());
+// console.log(allfriend.join(""));
+// console.log(allfriend.join(" @ "));
+// console.log(allfriend.join("|"));
+// console.log(allfriend.join("|").toUpperCase());
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
