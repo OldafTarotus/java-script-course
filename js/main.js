@@ -802,3 +802,31 @@
 // console.log(myfriend);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Arrays Methods [adding And Removing]
+    - unshift ("", "") Add Element to the First
+    - push ("", "") Add Add Element To The End
+    - Shift() Remove First Element From Array
+    - PoP() Remove Last Element From Array
+*/
+
+// let myfriend = ["Ahmed", "Mohamed", "Sayed", "Alaa"];
+// console.log(myfriend);
+
+// myfriend.unshift("pepo", "besher"); // this is how to add anything at the beginning
+// console.log(myfriend);
+
+// myfriend.push("pepo", "besher"); // this is how to add anything at the end
+// console.log(myfriend);
+
+// let first = myfriend.shift();
+// console.log(myfriend);
+// console.log(`First Name is ${first}`);
+
+
+// let last = myfriend.pop();
+// console.log(myfriend);
+// console.log(`Last Name is ${last}`);
+//------------------------------------------------------------------------------------------------------------------------
+
+
