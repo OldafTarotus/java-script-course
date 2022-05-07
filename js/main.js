@@ -787,3 +787,18 @@
 
 // console.log(Array.isArray(myfriend));
 //-------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Arrays Methods
+    - Length
+*/
+// Index Start From 0 [0, 1, 2, 3]
+// let myfriend = ["ahmed", "Mohamed", "Sayed", "Alaa"];
+// console.log(myfriend.length); // 4
+
+// // myfriend[myfriend.length] = "Gamal"; // this is how to add anything i want by dynamic  {case 1}
+// myfriend[myfriend.length - 1] = "Maged"; // this is how to update last index by dynamic  {case 2}
+// myfriend.length = 3; // this is how to control your length {case 3}
+// console.log(myfriend);
+//-------------------------------------------------------------------------------------------------------------------------
+
