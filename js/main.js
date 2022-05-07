@@ -856,6 +856,17 @@
 // console.log(myfriend.lastIndexOf("Osama"));
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Arrays Methods [Sort]
+    - sort(function [opt])
+    - reverse
+*/
+// let myfriend = [10, "Ahmed", "Mohamed", "90", 1000, 100, 20, "10", -20, -10];
+// console.log(myfriend);
 
+// console.log(myfriend.sort());
+// console.log(myfriend.reverse());
 
+// console.log(myfriend.sort().reverse()); // chain how to make 2x function in same line
+//------------------------------------------------------------------------------------------------------------------------
 
