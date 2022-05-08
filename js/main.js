@@ -1048,3 +1048,22 @@
 //     if (i === products.length) break;
 // }
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Products Practice
+*/
+// let products = ["Kebord", "Mouse", "Pen", "Pad", "Monitor"];
+// let colors = ["Red", "Green", "Black"];
+// let count = 5;
+
+// document.write(`<h1>Show ${count} products</h1>`);
+// for (let i = 0; i < count; i++) {
+//     document.write(`<div>`);
+//     document.write(`<h3>[${i + 1}] ${products[i]}</h3>`);
+// for (let c = 0; c < colors.length; c++) {
+//         document.write(`<p>${colors[c]}</p>`)
+//     }
+//     document.write(`<p>${colors.join(" | ")}</p>`);
+//     document.write(`</div>`);
+// }
+//------------------------------------------------------------------------------------------------------------------------
