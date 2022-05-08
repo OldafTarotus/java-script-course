@@ -944,11 +944,50 @@
 
 /*
     Loop
-        - For
+    - For
     for ([1] [2] [3]) {
         //block of code
     }
 */
-for (let i = 0; i < 10; i++) {  // I++ mean like post pre add 1 each time you found it them write
-    console.log(i);
-}
+// for (let i = 0; i < 10; i++) {  // I++ mean like post pre add 1 each time you found it them write
+//     console.log(i);
+// }
+//------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Loop
+    - Loop On Sequences 
+*/
+// let myfriend = [1, 2, "Ahmed", "Mohamed", "Sayed", "Gehad", "Asmaa", "Sondos"];
+
+// let onlyname = [];
+
+// // console.log(myfriend[0]); // not dynamic 
+// // console.log(myfriend[1]);
+// // console.log(myfriend[2]);
+// // console.log(myfriend[3]);
+// // console.log(myfriend[4]);
+
+// console.log(onlyname);
+
+//  
+// if (typeof myfriend[0] === "string") { // not dynamic
+//     onlyname.push(myfriend[0]);
+// }
+// if (typeof myfriend[1] === "string") {
+//     onlyname.push(myfriend[2]);
+// }
+// if (typeof myfriend[2] === "string") {
+//     onlyname.push(myfriend[2]);
+// }
+// if (typeof myfriend[3] === "string") {
+//     onlyname.push(myfriend[3]);
+// }
+
+// for (let i = 0; i < myfriend.length; i++) { // dynamic
+//     if (typeof myfriend[i] === "string") {
+//         onlyname.push(myfriend[i]);
+//     }
+// }
+// console.log(onlyname);
+//------------------------------------------------------------------------------------------------------------------------
