@@ -991,3 +991,24 @@
 // }
 // console.log(onlyname);
 //------------------------------------------------------------------------------------------------------------------------
+/*
+    Loop 
+    - Nested Loops
+*/
+// let products = ["keybord", "mouse", "pen", "pad", "monitor"];
+// let colors = ["red", "green", "blue"];
+// let models = ["2020", "2021"];
+
+// for (let i = 0; i < products.length; i++) {
+//     console.log("#".repeat(15));
+//     console.log(`# ${products[i]}`);
+//     console.log("#".repeat(15));
+//     console.log("colors: ");
+//     for (let c = 0; c < colors.length; c++) {
+//         console.log(`- ${colors[c]}`);
+//     }
+//     for (let m = 0; m < models.length; m++) {
+//         console.log(`- ${models[m]}`);
+//     }
+// }
+//------------------------------------------------------------------------------------------------------------------------
