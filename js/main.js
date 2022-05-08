@@ -926,5 +926,20 @@
 // console.log(allfriend.join("|").toUpperCase());
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Array Challenges
+*/
+// let zero = 0;
+// let counter = 3;
+// let my = ["Ahmed", "Mohamed", "Sayed", "Gehad", "Asmaa", "Sondos"];
+// // Write Code Here
+// console.log(my); // ["Gehad", "Sayed", "Mohamed", "Ahmed"]
+
+// console.log(my.slice("????")); // ["Sayed", "Mohamed"]
+
+// console.log(); // "Mohamed"
+
+// console.log(); // "ed"
+//------------------------------------------------------------------------------------------------------------------------
 
 
