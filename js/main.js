@@ -1012,3 +1012,28 @@
 //     }
 // }
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Loop Control
+    - Break
+    - Continue
+    - Label
+*/
+// let products = ["Kebord", "Mouse", "Pen", 10, 20, "Pad", "Monitor", 30, 40];
+// let colors = ["Red", "Green", "Black"];
+// mainloop: for (let i = 0; i < products.length; i++) {
+//     if (products[i] === "Pen") {
+//         break;  // this show you how to make breal when you get result you want
+//     }
+//     if (typeof products[i] === "number") {
+//         continue;  // this keep  going and ignore what you told him to didnt print it 
+//     }
+//     console.log(products[i]);
+//     nestedloop: for (let c = 0; c < colors.length; c++) {
+//         console.log(`- ${colors[c]}`);
+//         if (colors[c] === "Green") {
+//             break mainloop;    // this show you how to control main loop from nested loop
+//         }
+//     }
+// }
+//------------------------------------------------------------------------------------------------------------------------
