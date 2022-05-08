@@ -942,4 +942,13 @@
 // console.log(); // "ed"
 //------------------------------------------------------------------------------------------------------------------------
 
-
+/*
+    Loop
+        - For
+    for ([1] [2] [3]) {
+        //block of code
+    }
+*/
+for (let i = 0; i < 10; i++) {  // I++ mean like post pre add 1 each time you found it them write
+    console.log(i);
+}
