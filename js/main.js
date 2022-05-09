@@ -1124,3 +1124,33 @@
 // i("Gehad");
 // i("Sondos");
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function
+    - Advanced Example
+*/
+
+// function i(userName, age) {
+//     if (age < 25) {
+//         console.log(`you can wait more time`);
+//     } else {
+//         console.log(`Hello ${userName} Your Age is ${age}`);
+//     }
+// }
+// i("Ahmed", 31);
+// i("Gehad", 20);
+// i("Sondos", 28);
+// --------------------------------
+// /*
+//     Another Example
+// */
+// function generate(start, end, exclude) {
+//     for (let i = start; i <= end; i++) {
+//         if (i === 2020) {
+//             continue;
+//         }
+//         console.log(i);
+//     }
+// }
+// generate(1991, 2022, 2020);
+//------------------------------------------------------------------------------------------------------------------------
