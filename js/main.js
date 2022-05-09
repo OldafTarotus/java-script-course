@@ -1154,3 +1154,33 @@
 // }
 // generate(1991, 2022, 2020);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function
+    - Return
+    - Automatic Semicolon Insertion [No Line Terminator Allowed]
+    - Interruptting
+*/
+
+// function calc(num1, num2) {
+//     return num1 + num2;
+// }
+
+// let result = calc(10, 20);
+
+// console.log(result + 100);
+
+// /*
+//     Another Example
+// */
+
+// function generate(start, end) {
+//     for (let i = start; i < end; i++) {
+//         console.log(i);
+//         if (i === 15) {
+//             return; // when we write this like we cant add anything else before it , all break
+//         }
+//     }
+// }
+// generate(10, 20);
+//------------------------------------------------------------------------------------------------------------------------
