@@ -1184,3 +1184,21 @@
 // }
 // generate(10, 20);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function
+    - Default Function Parameters
+    - Function Parametars Default [Undefind]
+    - Old Startegies [Condition + Logical Or]
+    - ES6 Method
+*/
+
+// function i(userName = "unknown", Age = "unknown") {   // <<< Or
+//     if (Age === undefined) { // <<< Or
+//         Age = "unknown" 
+//     }
+//     Age = Age || "unknown"  // <<< or 
+//     return `Hello ${userName} Your Age Is ${Age}`;
+// }
+// console.log(i("Ahmed", 31)); // or  console.log(i());
+//------------------------------------------------------------------------------------------------------------------------
