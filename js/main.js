@@ -1106,4 +1106,21 @@
 // } while (false);
 // console.log(i);
 //------------------------------------------------------------------------------------------------------------------------
+/*
 
+    Function
+    - What Is Function ?
+    - User-Defind Vs Built IN
+    - Syntax + Basic Usage
+    - Example From Real Life
+    - Parameter + Argument
+    - Practical Example
+*/
+
+// function i(userName) {
+//     console.log(`Hello ${userName}`);
+// }
+// i("Ahmed");
+// i("Gehad");
+// i("Sondos");
+//------------------------------------------------------------------------------------------------------------------------
