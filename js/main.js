@@ -1291,3 +1291,33 @@
 //     console.log("Good");
 // }, 2000);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function
+    - Function Inside Function
+    - Return Function
+*/
+// Example 1   <<<
+// function firstmessage(FirstName, LastName) {
+//     let message = `Hello`;
+//     // Nested Function
+//     function concatenate() {
+//         message = `${message} ${FirstName} ${LastName}`;
+//     }
+//     concatenate();
+//     return message;
+// }
+// console.log(firstmessage("Ahmed", "Naser"));
+// ------------
+
+// Example 2    <<<
+// function firstmessage(FirstName, LastName) {
+//     let message = `Hello`;
+//     // Nested Function
+//     function concatenate() {
+//         return `${message} ${FirstName} ${LastName}`;
+//     }
+//     return concatenate();
+// }
+// console.log(firstmessage("Ahmed", "Naser"));
+//------------------------------------------------------------------------------------------------------------------------
