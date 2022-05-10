@@ -1266,3 +1266,28 @@
 // showDetails(true, 38, "osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 // showDetails(false, "osama", 38); // "Hello Osama, Your Age Is 38, You Are not Available For Hire"
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    function
+    - Anonymouse Function
+    - Calling Named Function vs Anonymouse Function
+    - Argument To Other Function
+    - Task Without Name
+    - SetTimeOut
+*/
+
+// let calculator = function (num1, num2) {
+//     return num1 + num2;
+// };
+// console.log(calculator(10, 20));
+
+// function hello() {
+//     console.log("Hello Ahmed");
+// }
+
+// document.getElementById("show").onclick = hello;
+
+// setTimeout(function () {
+//     console.log("Good");
+// }, 2000);
+//------------------------------------------------------------------------------------------------------------------------
