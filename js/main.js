@@ -1202,3 +1202,19 @@
 // }
 // console.log(i("Ahmed", 31)); // or  console.log(i());
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function
+    - Rest Paramenters
+    - Only One Allowed
+    - Must Be Last Elemnt
+*/
+function calc(...num) {
+    // * console.log(aray.isarray(num));  testimng to check  <<<
+    let result = 0;
+    for (let i = 0; i < num.length; i++) {
+        result += num[i]; // result = result + num[i]
+    }
+    return `Final result is ${result}`;
+}
+console.log(calc(10, 20, 30, 40, 50));
