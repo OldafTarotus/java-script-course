@@ -1247,3 +1247,22 @@
 // }
 // info("Ahmed", 31, 20, "no", "Oracle dba", "Html", "Css", );
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function - Random Argument Challenge
+    -----
+    Creat Function ShowDetails
+    Function Accept 3 Parameters [a, b, c]
+    Data Types For Info
+    - String => Name
+    - Number => Age
+    - Boolean => Status
+    Argument Is Random
+    Data Is Not Sorted Output Depend ON Data Types
+    - Use Ternary Conditional Operator
+*/
+// showDetails("osama", 38, true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(38, "osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(true, 38, "osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(false, "osama", 38); // "Hello Osama, Your Age Is 38, You Are not Available For Hire"
+//------------------------------------------------------------------------------------------------------------------------
