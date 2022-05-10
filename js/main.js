@@ -1209,12 +1209,41 @@
     - Only One Allowed
     - Must Be Last Elemnt
 */
-function calc(...num) {
-    // * console.log(aray.isarray(num));  testimng to check  <<<
-    let result = 0;
-    for (let i = 0; i < num.length; i++) {
-        result += num[i]; // result = result + num[i]
-    }
-    return `Final result is ${result}`;
-}
-console.log(calc(10, 20, 30, 40, 50));
+// function calc(...num) {
+//     // * console.log(aray.isarray(num));  testimng to check  <<<
+//     let result = 0;
+//     for (let i = 0; i < num.length; i++) {
+//         result += num[i]; // result = result + num[i]
+//     }
+//     return `Final result is ${result}`;
+// }
+// console.log(calc(10, 20, 30, 40, 50));
+//------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function Advanced Practice
+    - Parameters
+    - Defult
+    - Rest
+    - Loop
+    - Condition
+*/
+
+// function info(userName = "unknown", age = "unknown", rate = "unknown", show = "yes", ...skills) {
+//     document.write(`<div>`);
+//     document.write(`<h2>Welcome ${userName}</h2>`);
+//     document.write(`<p>Age ${age}</p>`);
+//     document.write(`<p>Hour Rate $${rate}</p>`);
+//     if (show === "yes") {
+//         if (skills.length > 0) {
+//             document.write(`<p>skills: ${skills.join(" | ")}</p>`);
+//         } else {
+//             document.write(`<p>skills: no skills</p>`);
+//         }
+//     } else {
+//         document.write(`<p>skills is hidden</p>`);
+//     }
+//     document.write(`</div>`)
+// }
+// info("Ahmed", 31, 20, "no", "Oracle dba", "Html", "Css", );
+//------------------------------------------------------------------------------------------------------------------------
