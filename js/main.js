@@ -1378,3 +1378,19 @@
 
 // inside();
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Scope
+    - Block Scope [If, Switch, For]
+*/
+
+// var x = 10;
+
+// if (10 === 10) {
+//     let x = 50; // if we use "let" thats mean if we didnt found anything from local , variable will not working 
+//     console.log(`From If Block ${x}`);
+// };
+
+// console.log(`From Glocal ${x}`);
+//------------------------------------------------------------------------------------------------------------------------
+
