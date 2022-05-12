@@ -1533,3 +1533,48 @@
 // }).join("");
 // console.log(ign);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Filter
+    - Methods Creates A New Array
+    - With All Elements That Pass The Test Implemented By The Provided Function
+
+    Syntax Filter(CallBackFunction(Element, Index, Array) {}, Thisarg)
+    - Element => The Current Element Being Processes In The Array
+    - Index => The Index Of The Current Element Being Processed In The Array
+    - Array => The Current Array
+*/
+
+// Get Friends With Name Starts With A
+// let Friends = ["Ahmed", "Sameh", "Sayed", "Asmaa", "Amgad", "Israa"];
+
+// // Get Even Numbers Only
+// let numbers = [11, 20, 2, 5, 17, 10];
+
+//tes Map Vs Filter
+
+// Map
+// let addmap = numbers.map(function (el) {    
+//     return el + el;
+// });
+// console.log(addmap);
+
+// Filter
+// let addfilter = numbers.filter(function (el) {     
+//     return el + el;
+// });
+// console.log(addfilter);
+
+// Filter with write example (String)
+// let filterfriend = Friends.filter(function (el) {
+//     return el.startsWith("A") ? true : false;
+// });
+// console.log(filterfriend);
+
+// // Filter with write example (number)
+// let filternumber = numbers.filter(function (el) {
+//     return el % 2 === 0 ? true : false;
+// });
+// console.log(filternumber);
+//------------------------------------------------------------------------------------------------------------------------
+
