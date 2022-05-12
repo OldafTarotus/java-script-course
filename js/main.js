@@ -1323,7 +1323,7 @@
 //------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Function
+    Function 
     - Arrow Function
     - Regular vs Arrow [Param + No Param]
     - Multiplae Lines
@@ -1353,6 +1353,28 @@
 //     return num1 + num2;
 // };
 
-let print = (num1, num2) => num1 + num2;
+// let print = (num1, num2) => num1 + num2;
 
-console.log(print(100, 50));
+// console.log(print(100, 50));
+//------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Scope
+    - Global And Local Scope
+*/
+
+// var a = 1;
+// let b = 2;
+
+// function inside() { // local scope searching for any variable inside function first if no , directrl get it from global
+//     var a = 10;
+//     let b = 20;
+//     console.log(`function - From Local Scope ${a}`);
+//     console.log(`function - From Local Scope ${b}`);
+// };
+
+// console.log(`From Global Scope ${a}`); // Global Scope can read anything from function
+// console.log(`From Global Scope ${b}`);
+
+// inside();
+//------------------------------------------------------------------------------------------------------------------------
