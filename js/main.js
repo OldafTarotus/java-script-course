@@ -1448,3 +1448,55 @@
 // console.log(calc(10, "???", "???"));  // 80
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Higher Order Functions
+    --- > Is A Function That Accepts Function As parameters And/or Return A Function.
+
+    map
+    --- Methods Creats a new Array
+    --- Populated With The Results Of Calling a Provided Function On Every Element
+    --- In The Calling Array
+
+    Syntax Map (CallBackFunction(Element, Index, Array) {}, thisarg)
+    --- Element => The Current Element Being Processes In The Array
+    --- Index => The Index Of The Current Element Being Processed In The Array
+    --- Array => The Current Array
+
+    Notes
+    --- Map Return A New Array
+
+    Examples 
+    --- Anonymous Function
+    --- Named Function
+*/
+
+// let myNum = [1, 2, 3, 4, 5, 6,];
+
+// let newNum =[];
+
+// for (let i = 0; i < myNum.length; i++) {
+//     newNum.push(myNum[i] + myNum[i]);
+// }
+// console.log(newNum);
+
+// -------------------------------
+// Same Example With "Map"   <<<<<<<<<<<<<<<<<<<<<<<
+// let newExample = myNum.map(function (Element) {
+//     return Element + Element
+// }, 10);
+// console.log(newExample);  
+
+// -------------------------------
+// Same Example With "Map & Arrow" <<<<<<<<<<<<<<<<<<<<<<<
+// let newExample = myNum.map((Element) => Element + Element);
+// console.log(newExample);
+
+// Same Example with another way   <<<<<<<<<<<<<<<<<<<<<<<
+
+// function Addition(ele) {
+//     return ele + ele;
+// }
+// let add = myNum.map(Addition);
+// console.log(add);
+//------------------------------------------------------------------------------------------------------------------------
+
