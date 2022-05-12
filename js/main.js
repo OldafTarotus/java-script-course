@@ -1394,3 +1394,30 @@
 // console.log(`From Glocal ${x}`);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Scope
+    - Lexical Scope
+
+    Search
+    - Execution Context
+    - Lexical Enviroment
+*/
+
+// let a = 10; // all scope take this variable
+
+// function grand() {
+//     // let a = 10;  // if  this value no found , take glocal value ,  grand value cant take parent or child value
+//     console.log(`Scope From gran ${a}`);
+//         function parent() {
+//             // let a = 20; // if  this value no found , take up value if not , take glocal value
+//             console.log(`Scope From parent ${a}`);
+//             function child() {
+//                 // let a = 30; // if  this value no found , take up value if not , take glocal value
+//                 console.log(`Scope From child ${a}`);
+//         }
+//         child();
+//     }
+//     parent();
+// }
+// grand();
+//------------------------------------------------------------------------------------------------------------------------
