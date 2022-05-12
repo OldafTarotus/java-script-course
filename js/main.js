@@ -1578,3 +1578,32 @@
 // console.log(filternumber);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Filter
+    - Filter Longest Word By Number
+*/
+
+// Filter Words More Than 4 Character
+// let sentence = "I Love Foood Code Too Playing Much";
+// let firstletter = sentence.split(" ").filter(function (el) {
+//     return el.length <= 4;
+// }).join(" ");
+// console.log(firstletter);
+
+// // Ignore Numbers
+// let ignorenumbers = "Ah1020med";
+// let secondletter = ignorenumbers.split("").filter(function (ele) {   // better than map to return good results
+//     return isNaN(parseInt(ele)) ? true : false;
+// }).join("");
+// console.log(secondletter);
+
+// // Filter Strings + Multiply
+// let mix = "Suc9ces8sin7g"
+// let lastmix = mix.split("").filter(function (elem) {
+//     return !isNaN(parseInt(elem));
+// }).map(function (elem) {
+//     return elem * elem;
+// }).join("")
+// console.log(lastmix);
+//------------------------------------------------------------------------------------------------------------------------
+
