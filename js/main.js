@@ -1675,21 +1675,46 @@
     - Breat Will Not Break The Loop
 */
 
-let alllis = document.querySelectorAll("ul li");
-let alldiv = document.querySelectorAll(".content div");
+// let alllis = document.querySelectorAll("ul li");
+// let alldiv = document.querySelectorAll(".content div");
 
-alllis.forEach(function (ele) {
-    ele.onclick = function() {
-        // Remove Active Class From All Element
-        alllis.forEach(function (ele) {
-            ele.classList.remove("active");
-        });
-        // Add Active Class On Any Element
-        this.classList.add("active");
-        // Hide All Divs
-        alldiv.forEach(function (ele) {
-            ele.style.display = "none";
-        })
-    };
-});
+// alllis.forEach(function (ele) {
+//     ele.onclick = function() {
+//         // Remove Active Class From All Element
+//         alllis.forEach(function (ele) {
+//             ele.classList.remove("active");
+//         });
+//         // Add Active Class On Any Element
+//         this.classList.add("active");
+//         // Hide All Divs
+//         alldiv.forEach(function (ele) {
+//             ele.style.display = "none";
+//         })
+//     };
+// });
+//------------------------------------------------------------------------------------------------------------------------
 
+/* 
+    Higher Order Function Challenges
+
+    You Can Use
+    - ,
+    - _
+    - Space
+    - True => 1 => One Time Only In The Code
+
+    You Cant Use 
+    - Umbers
+    - Letters
+
+    - You Must Use [Filter + Map + Reduce + Your Knowledge]
+    - Order Is Not Important
+    - All In One Chain
+*/
+
+// let mystring = "1,2,3,AA,H,M,E,D,_,W,e,B,S,C,H,O,o,2,3,0,L";
+
+// let solution = "???";
+
+// console.log(solution); // Ahmed Wen School 
+//------------------------------------------------------------------------------------------------------------------------
