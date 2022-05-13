@@ -1732,3 +1732,17 @@
 // console.log(user.Age);
 // console.log(user.Say());
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Object
+    - Dig Deeper
+    - Dot Notation Vs Braket Notation
+    - Dynamic Property Name
+*/
+
+// let user = { Name: "Ahmed", "Country": "Egypt"};
+
+// console.log(user.Name);
+// console.log(user["Name"]);
+// console.log(user["Country"]);
+//------------------------------------------------------------------------------------------------------------------------
