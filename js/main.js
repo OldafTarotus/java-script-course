@@ -1607,3 +1607,30 @@
 // console.log(lastmix);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Reduce
+    - Method Executes A Reduce Function on each Element Of The Array
+    - Resulting In A Single Output Value
+
+    Syntax
+    Reduce(CallBackFunction(Accumulator, Current Value, Current Index, Source Array) {}, InitialValue)
+    - Accumulator => The Accumulated Value Previously Returned In The Last Invocation
+    - Current Value => The Current Element Being Processed In The Array
+    - Index => The Index Of The Current Element Being Processed In The Array
+    --- Start From Index 0 If An InitialValue Is Provided
+    --- Otherwise, it Starts From Index 1
+    - Array = > The Current Array
+*/
+
+// let sum = [10, 20, 15, 30]; // we can add number [5,10, 20, 15, 30] in this Array and we call it (Init)
+// let examplesum = sum.reduce(function (Accumulator, Current, index, Array) {
+//     console.log(`acc => ${Accumulator}`);
+//     console.log(`Current Element = ${Current}`);
+//     console.log(`Current Element Index ${index}`);
+//     console.log(`Array ${Array}`);
+//     console.log(Accumulator + Current);
+//     console.log(`#####`);
+//     return Accumulator + Current;
+// }, 5); // number 5 mean init 
+// console.log(examplesum);
+//------------------------------------------------------------------------------------------------------------------------
