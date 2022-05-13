@@ -1660,3 +1660,36 @@
 // });
 // console.log(finalword);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    ForEach
+    - Method Excutes A Provided Function Once For Each Array Element
+
+    Syntax ForEach(callBackFunction(Element, Index, Array) {}, thisArg)
+    - Element => The Current Element Being Processed In The Array
+    - Index => The Index Of The Current Element Being Processed In The Array
+    - Array => The Current Array
+
+    Note
+    - Doesnt Return Anything [Undefind]
+    - Breat Will Not Break The Loop
+*/
+
+let alllis = document.querySelectorAll("ul li");
+let alldiv = document.querySelectorAll(".content div");
+
+alllis.forEach(function (ele) {
+    ele.onclick = function() {
+        // Remove Active Class From All Element
+        alllis.forEach(function (ele) {
+            ele.classList.remove("active");
+        });
+        // Add Active Class On Any Element
+        this.classList.add("active");
+        // Hide All Divs
+        alldiv.forEach(function (ele) {
+            ele.style.display = "none";
+        })
+    };
+});
+
