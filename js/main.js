@@ -1634,3 +1634,29 @@
 // }, 5); // number 5 mean init 
 // console.log(examplesum);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Reduce
+    - Longest Word
+    - Remove Characters + Use Reduce
+*/
+
+// let thebiggest = ["Bla", "Propaganda", "Other", "AAA", "Battery", "Test", "Ahmed-Naser"];
+// let removechars = ["E", "@", "L", "Z", "@", "@", "E", "R", "@", "O"];
+
+// let check = thebiggest.reduce(function (Accumulator, Current) {
+//     console.log(`acc => ${Accumulator}`);
+//     console.log(`Current Element = ${Current}`);
+//     console.log(Accumulator.length > Current.length ? Accumulator : Current);
+//     console.log(`#####`);
+//     return Accumulator.length > Current.length ? Accumulator : Current;
+// }); 
+// console.log(thebiggest);
+
+// let finalword = removechars.filter(function (ele) {
+//     return ! ele.startsWith("@");
+// }).reduce(function (Accumulator, Current) {
+//     return `${Accumulator}${Current}`;
+// });
+// console.log(finalword);
+//------------------------------------------------------------------------------------------------------------------------
