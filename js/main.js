@@ -1779,3 +1779,24 @@
 // console.log(user.adresses.egypt.one);
 // console.log(user.check());
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Object
+    - Creat With New Keyword New Object();
+*/
+
+// let user = {};
+
+// console.log(user);
+
+// user.name = "Ahmed";
+// user["age"] = 31;
+
+// user.hello = function () {
+//     return `hello`
+// };
+
+// console.log(user.name);
+// console.log(user.age);
+// console.log(user.hello());
+//------------------------------------------------------------------------------------------------------------------------
