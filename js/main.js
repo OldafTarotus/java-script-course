@@ -1746,3 +1746,36 @@
 // console.log(user["Name"]);
 // console.log(user["Country"]);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Object
+    - Nested Object And Trinings
+*/
+
+// let user = {
+//     name: "Ahmed",
+//     age: 31,
+//     skills: ["CCNA", "CCNP", "MCSA", "SDN", "OracleDBA", "HTML", "CSS", "JS", "Still LEarning"],
+//     avilable: false,
+//     adresses: {
+//         usa: "vegas",
+//         egypt: {
+//             one: "Alex",
+//             two: "zamalak",
+//         },
+//     },
+//     check: function () {
+//         if (user.avilable === true) {
+//         return `free for work`;
+//     } else {
+//         return `not free`
+//     };
+//     }
+// };
+// console.log(user.name);
+// console.log(user.age);
+// console.log(user.skills.join(" | "));
+// console.log(user.adresses.usa);
+// console.log(user.adresses.egypt.one);
+// console.log(user.check());
+//------------------------------------------------------------------------------------------------------------------------
