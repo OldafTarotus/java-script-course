@@ -1800,3 +1800,48 @@
 // console.log(user.age);
 // console.log(user.hello());
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Function >This< Keyword
+    - This Introduction
+    - This Inside Object Method
+    -- When a Function Is Called As A Method Of An Object
+    -- It's This Is Set To The Object The Method Is Calld On
+    - Global Object
+    - Test Variables With Window And This
+    - Global Context
+    - Function Context
+
+    Search
+    - Strict Mode
+*/
+
+// console.log(this);
+// console.log(this === window);
+
+// mytest = 100;
+
+// console.log(window.mytest);
+// console.log(this.mytest);
+
+// function test2() {
+//     console.log(this);
+//     return this;
+// }
+// test2();
+// console.log(test2() === window);
+
+// document.getElementById("cl").onclick = function () {
+//     console.log(this);
+// };
+
+// let user = {
+//     age: 31,
+//     test3: function () {
+//         return this.age * 365;  // this mean object when you creat it inside 
+//     },
+// };
+
+// console.log(user.age);
+// console.log(user.test3());
+//------------------------------------------------------------------------------------------------------------------------
