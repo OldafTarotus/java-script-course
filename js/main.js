@@ -1845,3 +1845,35 @@
 // console.log(user.age);
 // console.log(user.test3());
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Object
+    - Creat Object With Creat Method
+*/
+
+// let user = {
+//     age: 40,
+//     test: function () {
+//         return this.age * 2; // when we use keyword >this< that mean when we take a clone and want to make any change easy
+//     },
+// };
+
+// console.log(user);
+// console.log(user.age);
+// console.log(user.test());
+
+// let obj = Object.create({});
+
+// obj.age = 20;
+
+// console.log(obj);
+
+// let copyobj = Object.create(user);
+
+// copyobj.age = 90;
+
+// console.log(copyobj);
+// console.log(copyobj.age);
+// console.log(copyobj.test());
+//------------------------------------------------------------------------------------------------------------------------
+
