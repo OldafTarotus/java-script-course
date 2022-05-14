@@ -1877,3 +1877,36 @@
 // console.log(copyobj.test());
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Object
+    - Creat Object With Assign Method
+*/
+
+// let obj1 = {
+//     prop1: 1,
+//     meth1: function () {
+//         return this.proj1;
+//     },
+// };
+
+// let obj2 = {
+//     prop2: 2,
+//     meth2: function () {
+//         return this.proj2;
+//     },
+// };
+
+// let targetobject = {
+//     prop1: 1,
+//     prop3: 3,
+// };
+
+// let finalobject = Object.assign(targetobject, obj1, obj2);
+// finalobject.prop1 = 100;
+// finalobject.prop4 = 4;
+
+// console.log(finalobject);
+
+// let newobject = Object.assign({}, obj1, { prop5: 5, prop6: 6 });
+// console.log(newobject);
+//------------------------------------------------------------------------------------------------------------------------
