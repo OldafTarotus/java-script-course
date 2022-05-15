@@ -1910,3 +1910,48 @@
 // let newobject = Object.assign({}, obj1, { prop5: 5, prop6: 6 });
 // console.log(newobject);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Dom >  Documen Object Model
+    - What Is Dom
+    - Dom Seletor
+        - Find Element By Id
+        - Find Element By Tag Name
+        - Find Element By Class Name
+        - Find Element By Css Selector
+        - Find Element By Collection
+            - Title
+            - Body
+            - Images
+            - Forms
+            - Links
+*/
+
+// let ElementID = document.getElementById("my-div")
+// let ElementTags = document.getElementsByTagName("p")
+// let ClassElement = document.getElementsByClassName("my-span")
+// let QueryElement = document.querySelector(".special") // selector we can use it almost with everything
+// let QueryElement2 = document.querySelector("#my-div")  
+// let QueryAllElement = document.querySelectorAll(".my-span")
+
+// console.log(ElementID);
+// console.log(ElementTags);
+// console.log(ElementTags[1]);
+// console.log(QueryElement);
+// console.log(QueryElement2);
+// console.log(QueryAllElement);
+// console.log(QueryAllElement[1]);
+
+// console.log(document.title);
+// console.log(document.body);
+// console.log(document.images);
+// console.log(document.forms);
+// console.log(document.forms[0].one.value);
+// console.log(document.links);
+// console.log(document.links[1].href);
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
