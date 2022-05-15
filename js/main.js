@@ -1951,7 +1951,43 @@
 // console.log(document.links[1].href);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Get / Set Element Content And Attributes]
+    - innerHTML
+    - TextContent
+    - Change Attributes Directly
+    - Change Attributes With Methods
+    --- GetAttribute
+    --- SetAttribuet
+
+    Search
+    - innerText
+*/
+
+// let MyEle = document.querySelector(".Js")
+
+// console.log(MyEle.innerHTML);
+// console.log(MyEle.textContent);
+
+// MyEle.innerHTML = "Text From Main <span> Jas </span> File";
+// MyEle.textContent = "Text From Main <span> Jas </span> File";
+
+// document.images[0].src ="https://Oldaf.com";
+// document.images[0].alt ="Me";
+// document.images[0].title ="picture";
+// document.images[0].id ="pic";
+// document.images[0].className = "img";
+// console.log(document.images);
+
+// let mylink = document.querySelector(".link");
+
+// console.log(mylink.getAttribute("class"));
+// console.log(mylink.getAttribute("href"));
 
 
+// mylink.getAttribute("class");
+// mylink.getAttribute("href"); 
 
-
+// mylink.setAttribute("href", "thhps://twitter");
+// mylink.setAttribute("title", "Twitter");
+//------------------------------------------------------------------------------------------------------------------------
