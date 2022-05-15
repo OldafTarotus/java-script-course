@@ -2025,5 +2025,34 @@
 // }
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Creat Elements]
+    - CreatElement
+    - CreatCommet
+    - CreatTextNode
+    - CreatAttribute
+    - AppEndChild
+*/
+
+// let myelement = document.createElement("div");
+// let myattribute = document.createAttribute("data-custome");
+// let mytext = document.createTextNode("Product One");
+// let mycomment = document.createComment("This is Div");
+
+// myelement.className = "MyDiv";
+// myelement.setAttributeNode(myattribute);
+// myelement.setAttribute("data-test", "data-testing");
+
+// myelement.appendChild(mycomment); // Append Commet to Element
+
+// myelement.appendChild(mytext);  // Append text to Element
+
+// document.body.appendChild(myelement);  // Append Element to Body
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
