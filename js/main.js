@@ -2127,6 +2127,41 @@
 // };  
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    DOM [Events]
+    - Validate Form Practice
+    - Prevent Default
+*/
+//------------------------------------------------------------------------------------------------------------------------
+
+// let userInput = document.querySelector("[name=`username`]");
+// let ageInput = document.querySelector("[name=`age`]");
+
+// console.log(userInput);
+// console.log(ageInput);
+
+// document.forms[0].onsubmit = function (e) {
+//     let userInput = false;
+//     let ageInput = false;
+
+//     if (userInput.value !== "" && userInput.value.length <= 10) {
+//         userInput = true;
+//     }
+//     if (ageInput.value !== "") {
+//         ageInput = true;
+//     }
+//     if (userInput === false || ageInput === false) {
+//         e.preventDefault();
+//     };
+// };
+
+// document.links[0].onclick = function (event) {
+//     console.log(event);
+//     event.preventDefault();
+// };
+//------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
