@@ -2180,6 +2180,30 @@
 // };
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Class List]
+    - ClassList
+    --- Length
+    --- Contains
+    --- Item(Index)
+    --- Add
+    --- Remove
+    --- Toggle
+*/
+
+// let element = document.getElementById("my-div");
+
+// console.log(element.classList);
+// console.log(typeof element.classList);
+// console.log(element.classList.contains("Ahmed"));
+// console.log(element.classList.contains("one for test"));
+// console.log(element.classList.item("2"));
+
+// element.onclick = function () {
+//     element.classList.add("show-one", "show-two");
+//     // element.classList.remove("");
+// };
+//------------------------------------------------------------------------------------------------------------------------
 
 
 
