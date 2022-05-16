@@ -2050,7 +2050,33 @@
 // document.body.appendChild(myelement);  // Append Element to Body
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Creat Elements]
+    - Practice Product With Heading And Paragraph
+*/
 
+let myelement = document.createElement("div");
+let myheading = document.createElement("h2");
+let myp = document.createElement("p");
+
+let myheadtext = document.createTextNode("product");  // creat h2 text
+let myptext = document.createTextNode("product description");  // creat p text  
+
+myelement.className = "product";
+myelement.appendChild(myheading);  // put h2 inside div
+myelement.appendChild(myp);  // put p inside div
+
+
+myheading.appendChild(myheadtext); // add text to head
+
+
+myp.appendChild(myptext);  // add text to paragraph
+
+
+
+document.body.appendChild(myelement);
+// document.body.appendChild(myheading);
+// document.body.appendChild(myptext);
 
 
 
