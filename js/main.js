@@ -2055,28 +2055,49 @@
     - Practice Product With Heading And Paragraph
 */
 
-let myelement = document.createElement("div");
-let myheading = document.createElement("h2");
-let myp = document.createElement("p");
+// let myelement = document.createElement("div");
+// let myheading = document.createElement("h2");
+// let myp = document.createElement("p");
 
-let myheadtext = document.createTextNode("product");  // creat h2 text
-let myptext = document.createTextNode("product description");  // creat p text  
+// let myheadtext = document.createTextNode("product");  // creat h2 text
+// let myptext = document.createTextNode("product description");  // creat p text  
 
-myelement.className = "product";
-myelement.appendChild(myheading);  // put h2 inside div
-myelement.appendChild(myp);  // put p inside div
+// myelement.className = "product";
+// myelement.appendChild(myheading);  // put h2 inside div
+// myelement.appendChild(myp);  // put p inside div
 
+// myheading.appendChild(myheadtext); // add text to head
 
-myheading.appendChild(myheadtext); // add text to head
+// myp.appendChild(myptext);  // add text to paragraph
 
+// document.body.appendChild(myelement);
+//------------------------------------------------------------------------------------------------------------------------
 
-myp.appendChild(myptext);  // add text to paragraph
+/*
+    Dom [Deal With Childrens]
+    - Children
+    - ChildNodes
+    - FirstChild
+    - LastChild
+    - FirstElementChild
+    - LastElementChild
+*/
 
+// let myelement = document.querySelector("div");
 
+// console.log(myelement);
+// console.log(myelement.children);
+// console.log(myelement.children[0]);
+// console.log(myelement.childNodes);
+// console.log(myelement.childNodes[0]);
 
-document.body.appendChild(myelement);
-// document.body.appendChild(myheading);
-// document.body.appendChild(myptext);
+// console.log(myelement.firstChild);
+// console.log(myelement.lastChild);
+
+// console.log(myelement.firstElementChild);
+// console.log(myelement.lastElementChild);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
