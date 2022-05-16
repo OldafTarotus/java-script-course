@@ -2098,6 +2098,34 @@
 // console.log(myelement.lastElementChild);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Events]
+    - Use Events ON Html
+    - Use Events ON Js
+    --- onclick
+    --- oncontextmenu
+    --- onmouseenter
+    --- onmouseleave
+
+    --- onload
+    --- onscroll
+    --- onresize
+
+    --- onfocus
+    --- onblur
+    --- onsubmit
+*/
+
+// let mybtm = document.getElementById("btm");
+
+// mybtm.onclick = function () {
+//     console.log("clicked");
+// };
+
+// window.onsubmit = function () {
+//     console.log("everything is good");
+// };  
+//------------------------------------------------------------------------------------------------------------------------
 
 
 
