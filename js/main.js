@@ -2161,6 +2161,24 @@
 // };
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    DOM [Events Simulation]
+    - Click
+    -Focus
+    - Blur
+*/
+
+// let one = document.querySelector(".One");
+// let two = document.querySelector(".Two");
+
+// window.onload = function () {
+//     two.focus();
+// };
+
+// one.onblur = function () {
+//     document.links[0].click();
+// };
+//------------------------------------------------------------------------------------------------------------------------
 
 
 
