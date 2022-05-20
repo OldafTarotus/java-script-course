@@ -2247,6 +2247,31 @@
 // element.remove();
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Dom [Traversing]
+    - NextSibbling
+    - PreviousSibling
+    - NextElementSibling
+    - PreviousElementSibling
+    - ParentElement
+*/
+
+// let span = document.querySelector(".two");
+
+// // console.log(span.nextSibling);
+// // console.log(span.previousSibling);
+
+// // console.log(span.nextElementSibling);
+// // console.log(span.previousElementSibling);
+
+// // console.log(span.parentElement);
+
+// span.onclick = function () {
+//     // span.parentElement.style.opacity = ".5";
+//     span.parentElement.remove();
+// }
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
