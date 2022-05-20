@@ -2228,6 +2228,24 @@
 // document.styleSheets[0].cssRules[0].style.setProperty("background-color", "yellow", "important");
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    DOM [Deal With Elements]
+    - Before [Element || String]
+    - After [Element || String]
+    - Append [Element || String]
+    - Prepent [Element || String]
+    - Remove
+*/
+
+// let element = document.getElementById("my-div");
+// let creatp = document.createElement("p");
+
+// element.before("Hello From Js");
+// element.after(creatp);
+// element.append("Hello From JS")
+// element.prepend("Hello From JS")
+// element.remove();
+//------------------------------------------------------------------------------------------------------------------------
 
 
 
