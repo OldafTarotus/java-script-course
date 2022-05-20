@@ -2272,6 +2272,18 @@
 // }
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Com [Cloning]
+    - CloneNode(Deep)
+*/
+
+// let mydiv = document.querySelector(".my-div"); 
+// let myp = document.querySelector("p").cloneNode(true); // Without anything tale just element & attribute , with true take clone from everything
+
+// myp.id = `${myp.id}-new`;
+
+// mydiv.appendChild(myp);
+//------------------------------------------------------------------------------------------------------------------------
 
 
 
