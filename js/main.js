@@ -2420,3 +2420,36 @@
 //     clearTimeout(counter);
 // };
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    BOM [Browser Object Model]
+    - setInterval(Function, MillSeconds, Additional Params)
+    - clearInterval(Identifier)
+*/
+
+// setInterval(function () {
+//     console.log(`this is first message`);
+// }, 1000);
+
+// setInterval(msg, 1000);
+// function msg() {
+//     console.log(`this is second message`);
+// };
+
+// setInterval(Two, 1000, "Ahmed", 31);
+// function Two(user, age) {
+//     console.log(`hello this is 2x message ${user} and my age is ${age}`);
+// };
+
+
+// let myc = document.querySelector("div");
+
+// function cdown() {
+//     div.innerHTML -= 1;
+//     if (div.innerHTML === 0) {
+//         clearInterval(counter);
+//     };
+// }
+
+// let counter = setInterval(cdown, 1000);
+//------------------------------------------------------------------------------------------------------------------------
