@@ -2383,7 +2383,40 @@
 // console.log(prompmsg);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    BOM [Browser Object Model]
+    - setTimeout(Function, Timeotu, Additional Params)
+    - clearTimeout(Identifier)
+*/
+
+// setTimeout(function () {
+//     console.log("This is Message From Space");
+// }, 3000);
 
 
+// setTimeout(One, 3000);
+// function One() {
+//     console.log("this is message from UnderGround");
+// };
+
+// setTimeout(Two, 3000, "Ahmed", 31);
+
+// function Two(user, age) {
+//     console.log(`Hello This Is message From JS ${user} His Age Is ${age}`);
+// };
 
 
+// let counter = setTimeout(Two, 3000);
+
+// function Two() {
+//     console.log(`Hello This Is message From JS`);
+// };
+
+// console.log(counter);
+
+// let press = document.querySelector("button");
+
+// press.onclick = function () {
+//     clearTimeout(counter);
+// };
+//------------------------------------------------------------------------------------------------------------------------
