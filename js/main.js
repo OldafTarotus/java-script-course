@@ -2337,6 +2337,28 @@
 // });
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    BOM [Browser Object Model]
+    - Introduction
+    --- Window Object In The Browser Window
+    --- Window Contain The Document Object
+    --- All Global Varibles And Object And Function Are Members Of Window Object
+    ----- Test Document And Console
+    - What we Do With Window Object
+    --- Open Window
+    --- Close Window
+    --- Move Window
+    --- Resize Window
+    --- Print Document
+    --- Run Code After Period Of Time Once Or More
+    --- Fully Control The Url
+    --- Save Data Inside Browser To Use Later
+*/
+
+// window.console.log("Hello From UnderGround");
+//------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
