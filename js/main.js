@@ -2358,6 +2358,31 @@
 // window.console.log("Hello From UnderGround");
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    BMO [Browser Object Model]
+    - Alert(Message) => Need No Resones ONly Ok Available
+    - Confirm(Message) => Need Resonse And Return A Boolean
+    - Promp(Messagem Default Message) => Collect Data
+*/
+
+// All The Same
+// window.alert("Take Care");
+// this.alert("Back Again");
+// alert("Turn Around");
+
+// let conf = confirm("Are You Sure ?");
+// console.log(conf);
+
+// if (conf === true) {
+//     console.log("You Select Items Deleted");
+// } else {
+//     console.log("You Select Items Not Deleted");
+// };
+
+// let prompmsg = prompt("when are you available ?", "Write day with time you will be available in...!");
+// console.log(prompmsg);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
