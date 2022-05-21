@@ -2278,12 +2278,65 @@
 */
 
 // let mydiv = document.querySelector(".my-div"); 
-// let myp = document.querySelector("p").cloneNode(true); // Without anything tale just element & attribute , with true take clone from everything
+// let myp = document.querySelector("p").cloneNode(true); // Without anything take just element & attribute , with true take clone from everything
 
 // myp.id = `${myp.id}-new`;
 
 // mydiv.appendChild(myp);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Dom [Add Event Listener]
+    - AddEventListener
+    - Use Without On
+    - Attach Multiple Events
+    - Error Test
+
+    Search
+    - capture & Bubbling JavaScript
+    - RemoveEventListener
+*/
+
+// let myp = document.querySelector("p");
+
+// myp.onclick = two;
+// function one() {
+//     console.log("Message From Onlick One");
+// };
+// function two() {
+//     console.log("Message From Onlick Two");
+// };
+
+// window.onload = "Oldaf";
+
+// myp.addEventListener("click", function () {
+//     console.log("message on click from event")
+// });
+
+// myp.addEventListener("click", one);
+// myp.addEventListener("click", two);
+
+// myp.addEventListener("click", "string");  // Testing Error Message
+
+// myp.onclick = function () {
+//     let newp = myp.cloneNode(true);
+//     newp.className = `clone`;
+//     document.body.appendChild(newp);
+// };
+
+// let cloned = document.querySelector(".clone");
+
+// cloned.onclick = function () {
+//     console.log("i'am cloned");
+// };
+
+// document.addEventListener("click", function (e) {
+//     if (e.target.className === `clone`) {
+//         console.log("iam clone");
+//     };
+// });
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
