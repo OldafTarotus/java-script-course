@@ -2520,12 +2520,12 @@
 //------------------------------------------------------------------------------------------------------------------------
 
 /*
-    COM [Browser Object Model]
+    BOM [Browser Object Model]
     - stop()
     - print()
     - focus()
-    - scrollTo(x, y || Options)
     - scroll(x, y || Options)
+    - scrollTo(x, y || Options)
     - scrollBy(x, y || Options)
 */
 
@@ -2544,4 +2544,29 @@
 // });
 //------------------------------------------------------------------------------------------------------------------------
 
+/* // Scroll To Top smooth
+    BOM [Browser Object Model]
+    - Practice => Scroll To Top
+    - scrollX [Alias => PageXoffset]
+    - scrollY [Alias => PageXoffset]
+    */
 
+    // console.log(window.scrollX === window.pageXOffset);
+    // let btn = document.querySelector(".bt");
+
+    // window.onscroll = function () {
+    //     if (window.scrollY >= 1000) {
+    //         btn.style.display = "block";
+    //     } else {
+    //         btn.style.display = "none";
+    //     };
+    // };
+
+    // btn.onclick = function () {
+    //     window.scrollTo( {
+    //         top: 0,
+    //         left: 0,
+    //         behavior: "smooth"
+    //     });
+    // };
+//------------------------------------------------------------------------------------------------------------------------
