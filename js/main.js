@@ -2453,3 +2453,32 @@
 
 // let counter = setInterval(cdown, 1000);
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    BOM [Browser Object Model]
+    - Location Object
+    --- href get / set [URL || Hash || File || Mail]
+    --- host
+    --- hash
+    --- protocol
+    --- reload()
+    --- replace()
+    --- assign()
+*/
+// console.log(location);
+// console.log(location.href);
+// console.log(location.hash);
+// location.href = "https://google.com";
+// location.href = "/#sec2";
+
+// console.log(location.host);
+// console.log(location.hostname);
+// console.log(location.protocol);
+
+// window.location.reload();
+// window.location.replace("gogle.com")
+// window.location.assign("google.com");
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
