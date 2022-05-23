@@ -2499,5 +2499,22 @@
 // }, 2000);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    BOM [Browser Object Model]
+    - History API
+    --- Properties
+    ----- Length
+    --- Methods
+    ----- back()
+    ----- Forward
+    ----- go(Delta) => Position In History
 
+    Search [For Advanced Knowledge]
+    - PushState() + replaceState()
+*/
 
+// console.log(history.length)
+// console.log(history.back)
+// console.log(history.forward)
+// console.log(history.go(1));
+//------------------------------------------------------------------------------------------------------------------------
