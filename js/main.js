@@ -2476,7 +2476,7 @@
 // console.log(location.protocol);
 
 // window.location.reload();
-// window.location.replace("gogle.com")
+// window.location.replace("google.com");
 // window.location.assign("google.com");
 //------------------------------------------------------------------------------------------------------------------------
 
@@ -2513,8 +2513,35 @@
     - PushState() + replaceState()
 */
 
-// console.log(history.length)
-// console.log(history.back)
-// console.log(history.forward)
+// console.log(history.length);
+// console.log(history.back);
+// console.log(history.forward);
 // console.log(history.go(1));
 //------------------------------------------------------------------------------------------------------------------------
+
+/*
+    COM [Browser Object Model]
+    - stop()
+    - print()
+    - focus()
+    - scrollTo(x, y || Options)
+    - scroll(x, y || Options)
+    - scrollBy(x, y || Options)
+*/
+
+// let nwindow = window.open("http://google.com", "blank", "width=350, height=350, top=250, left=250");
+
+// nwindow.focus();
+// nwindow.close();
+
+// window.scroll()
+// window.scrollTo(1000, 1000);
+// window.scrollBy(1000, 1000);
+// window.scrollTo({
+//     left: 1000,
+//     top: 1000,
+//     behavior: "smooth"
+// });
+//------------------------------------------------------------------------------------------------------------------------
+
+
