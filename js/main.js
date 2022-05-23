@@ -2480,5 +2480,24 @@
 // window.location.assign("google.com");
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    BOM [Browser Object Model]
+    - Open(URL [Opt], Window Name Or Target Attr [Opt], Window Feathures [Opt], History Replace [Opy]);
+    - Close()
+    - Window Features
+    --- Width [Num]
+    --- height [Num]
+    --- Left [Num]
+    --- Top [Num]
+
+    search
+    - Window Open Window Features
+*/
+
+// setTimeout( function () {
+//     window.open("http://google.com", "blank", "width=400, height=400, left=250, top=250");
+// }, 2000);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
