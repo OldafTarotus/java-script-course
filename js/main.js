@@ -2676,7 +2676,28 @@
 //------------------------------------------------------------------------------------------------------------------------
 
 /*
-    
+    Destructuring
+    " Is A JavaScript Expression That Allows Us To Extract Data From Arrays,
+    Objects, And Maps And Set Them Into New, Distinct Variables"
+    - Destructuring Array
 */
+
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// let d = 4;
+
+// let myfriend = ["Ahmed", "Sayed", "Ali", "Maysa"];
+
+// let [a, b, c, d] = myfriend;
+
+// console.log(myfriend.splice(" | "));
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
