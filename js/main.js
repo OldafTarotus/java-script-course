@@ -2687,16 +2687,23 @@
 // let c = 3;
 // let d = 4;
 
-// let myfriend = ["Ahmed", "Sayed", "Ali", "Maysa"];
+// let myFriends = ["Ahmed", "Sayed", "Ali", "Maysa"];
 
-// let [a, b, c, d] = myfriend;
+// [a = "A", b, c, d, e = "Osama"] = myFriends;
 
-// console.log(myfriend.splice(" | "));
-
+// console.log(myFriends.splice(" | "));
 // console.log(a);
 // console.log(b);
 // console.log(c);
 // console.log(d);
+// console.log(e);
+
+// // console.log(myFriends[4]);
+
+// let [, y, , z] = myFriends;
+
+// console.log(y);
+// console.log(z);
 //------------------------------------------------------------------------------------------------------------------------
 
 
