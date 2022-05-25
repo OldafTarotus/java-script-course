@@ -2742,6 +2742,43 @@
 // console.log(video);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Destructuring 
+    - Destructuring Object
+*/
+
+// const user = {
+//     theName: "ahmed",
+//     theAge: 31,
+//     theTitle: "engineering",
+//     theCountry: "egypt",
+// };
+
+// console.log(user.theName);
+// console.log(user.theAge);
+// console.log(user.theTitle);
+// console.log(user.theCountry);
+
+// let theName = user.theName;
+// let theAge = user.theAge;
+// let theTitle = user.theTitle;
+// let theCountry = user.theCountry;
+
+// console.log(theName);
+// console.log(theAge);
+// console.log(theTitle);
+// console.log(theCountry);
+
+// ({theName, theAge, theTitle, theCountry} = user);  // this is new way to do objects by destructuring
+
+// const {theName, theAge, theTitle, theCountry} = user;
+// console.log(theName);
+// console.log(theAge);
+// console.log(theTitle);
+// console.log(theCountry);
+//------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
