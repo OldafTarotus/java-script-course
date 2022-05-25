@@ -2720,6 +2720,28 @@
 // console.log(b);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Destructuring
+    - Destructuring Array => Swapping Variables
+*/
+
+// let book = "video";
+// let video = "book";
+
+// Save Book Value In Stash   // This Is Old Way 
+// let Stash = book; // video
+
+// Change Book Value 
+// book = video; // Book
+
+// Change Video Value
+// video = Stash;  // Video
+
+// [book, video] = [video, book];  // This Is Destructuring way (New Way)
+// console.log(book);
+// console.log(video);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
