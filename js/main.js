@@ -2705,6 +2705,25 @@
 // console.log(y);
 // console.log(z);
 //------------------------------------------------------------------------------------------------------------------------
+/*
+    Destructuring
+    - Destructuring Array Advanced Examples
+*/
+
+// let myfriends = ["Ahmed", "Sayed", "Ali", ["Shady", "Amr", ["Mohamed", "Gamal"]]];
+// console.log(myfriends[3][2][1]);
+// console.log(myfriends);
+
+// let [, , , [a, , [, b]]] = myfriends;
+
+// console.log(a);
+// console.log(b);
+//------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
