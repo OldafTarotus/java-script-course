@@ -2778,6 +2778,41 @@
 // console.log(theCountry);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Destructuring 
+    - Destructuring Object
+    --- Naming The Variables
+    --- Add New Property
+    --- Nested Object
+    --- Destructuring The Nested Object Only
+*/
+
+// const user = {
+//     theName: "ahmed",
+//     theAge: 31,
+//     theTitle: "engineering",
+//     theCountry: "egypt",
+//     thelanguage: "English",
+//     skills: {
+//         html: 100,
+//         css: 97,
+//     },
+// };
+
+// const {theName: a, theAge: b, theTitle, theCountry, thelanguage: co = "arabic", skills: {html: sk, css: cs}} = user;
+// console.log(a);
+// console.log(b);
+// console.log(theTitle);
+// console.log(theCountry);
+// console.log(co);
+// console.log(`my html skills progress is ${sk}`);
+// console.log(`my css skills progress is ${cs}`);
+
+// const {html: firstOne, css: secondOne} = user.skills;
+// console.log(`my html skills progress is ${firstOne}`);
+// console.log(`my css skills progress is ${secondOne}`);
+//------------------------------------------------------------------------------------------------------------------------
+
 
 
 
