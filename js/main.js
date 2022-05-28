@@ -2851,6 +2851,45 @@
 //     console.log(c);
 //     console.log(s, h);
 // };
+// -------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Destructuring
+    - Destructuring Mixed Content
+*/
+
+// const user = {
+//     theName: "ahmed",
+//     theAge: 31,
+//     theTitle: "engineering",
+//     theCountry: "egypt",
+//     thelanguage: "English",
+//     skills: ["HTML", "CSS", "JavaScript"],
+//     address: {
+//         egypt: "cairo",
+//         alex: "over the sea"
+//     },
+// };
+
+// const {
+//     theName: n, 
+//     theAge: a, 
+//     theTitle: t, 
+//     theCountry: c,
+//     thelanguage: l, 
+//     skills: [one, two, three], 
+//     address: {egypt: eg, alex: al}} = user;
+
+//     console.log(`My Name Is: ${n}`);
+//     console.log(`My Age is: ${a}`);
+//     console.log(`My Job Is: ${t}`);
+//     console.log(`My Country: ${c}`);
+//     console.log(`My Language ${l}`);
+//     console.log(`My Skills: ${one} , ${two} , ${three}`);
+//     console.log(`My adress 1 ${eg}`);
+//     console.log(`My adress 2 ${al}`);
+// -------------------------------------------------------------------------------------------------------------------------
+
 
 
 
