@@ -2936,6 +2936,67 @@
 // console.log(myunidata.has("A"));
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    - Set - Vs WeakSet
+    "
+        The WeakSet Is Weak,
+        Meaning references to object in a WeakSet are held Weakly.
+        If no other references to an object stored in the WeakSet exist,
+        those objects can be grabage collected.
+    "
+    Set ...... => Can store any data values
+    WeakSet .. => Collection of objects only
+
+    Set ...... => Have size property
+    WeakSet .. => Does not have size property
+
+    Set ...... => Have keys, Values, Entries
+    WeakSet .. => Does not have Clear, Key, Values, and Entries
+
+    set ...... => Can use ForEach
+    WeakSet .. => Cannot use ForEach
+
+    Usage: Store objects and removes them once they become inaccessible
+*/
+
+// Type Of Data <<<<<
+// let myset = new Set([1, 2, 3, 1, 2, 3, "A", "A"]);
+// console.log(myset);
+
+// Size  <<<<<
+// console.log(`Size Of Elements Inside Set: ${myset.size}`);
+
+// Values + Key [Alias For Values] <<<<<<
+// let iterator = myset.keys();
+// console.log(iterator);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next());
+
+// ForEach <<<<<
+// myset.forEach((ele) => console.log(ele));
+
+// -----------
+
+// Type Of Data <<<<<
+// let myws = new WeakSet([{a: 1, b: 2}]);
+// console.log(myws);
+
+// Values + Key [Alias For Values] <<<<<< [you cant use it on weakset]
+// let iterator = myws.keys();
+// console.log(iterator);
+// console.log(iterator.next().value);
+
+// ForEach <<<<< [you cant use it on weakset]
+// myws.forEach((ele) => console.log(ele));
+
+
+// console.log("#".repeat(20));
+// -------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
