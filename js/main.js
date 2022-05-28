@@ -1076,15 +1076,15 @@
 // let products = ["Kebord", "Mouse", "Pen", "Pad", "Monitor", "iphone"];
 // let index = 0;
 
-// while (index < 10) {    
-//     console.log(index);
-//     index += 1;
-//     if (index === 3) {
-//         break;
-//     }
-// }
+// // while (index < 10) {    
+// //     console.log(index);
+// //     index += 1;
+// //     if (index === 3) {
+// //         break;
+// //     }
+// // }
 
-// or
+// // or
 
 // while (index < products.length) {    
 //     console.log(products[index]);
@@ -2996,9 +2996,57 @@
 // console.log("#".repeat(20));
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    - Map Data Type
+    Syntax: new Map(Iterable With Key/Value)
+    -- Map vs Object
+    --
+    ------ Map => Does Not Contain Key By Default
+    ------ Object => Has Default Keys
+    --
+    ------ Map => Key Can Be Anything [Function, Object, Any Primitive Data Types]
+    ------ Object => String Or Symbol
+    --
+    ------ Map => Ordered By Insertion
+    ------ Object => Not 100% Till Now
+    --
+    ------ Map => Get Items By Size
+    ------ Object => Need To Do Manually
+    --
+    ------ Map => Can Be Directly Iterated
+    ------ Object => Not Directly And Need To Use Object.keys() And So On
+    --
+    ------ Map => Better Performance When Add Or Remove Data
+    ------ Object => Low Performance When Comparing To Map
+*/
 
+// let myobject = {};
+// let myempetyobject = Object.create(null);
+// let mymap = new Map();
 
+// console.log(myobject);
+// console.log(myempetyobject);
+// console.log(mymap); 
 
+// let mynewobject = {
+//     10: "Number",
+//     "10": "String",
+// };
+// console.log(mynewobject[10]);
 
+// let mynewmap = new Map();
+// mynewmap.set(10, "Number");
+// mynewmap.set("10", "String");
+// mynewmap.set(true, "Boolean");
+// mynewmap.set({a: 1, b: 2}, "Object");
+// mynewmap.set(function dosomething() {}, "function");
+// console.log(mynewmap.get(10));
+// console.log(mynewmap.get("10"));
+// console.log(mynewmap.get(true));
 
+// console.log("#########");
+
+// console.log(mynewobject);
+// console.log(mynewmap);
+// -------------------------------------------------------------------------------------------------------------------------
 
