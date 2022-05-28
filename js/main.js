@@ -2813,6 +2813,46 @@
 // console.log(`my css skills progress is ${secondOne}`);
 //------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Destructuring
+    - Destructuring Function Parameters
+*/
+
+// const user = {
+//     theName: "ahmed",
+//     theAge: 31,
+//     theTitle: "engineering",
+//     theCountry: "egypt",
+//     thelanguage: "English",
+//     skills: {
+//         html: 100,
+//         css: 97,
+//     },
+// };
+
+// show(user);
+
+// function show(data) {   // Old Way <<<<
+//     console.log(`My Name Is ${data.theName}`);
+//     console.log(`My Age Is ${data.theAge}`);
+//     console.log(`My Skill Progress Is ${data.skills.css}`);
+// };
+
+// function show({theName, theAge, theCountry, skills: {css, html}} = user) { // New Way
+//     console.log(theName);
+//     console.log(theAge);
+//     console.log(theCountry);
+//     console.log(css, html);
+// };
+
+// function show({theName: n, theAge: a, theCountry: c, skills: {css: s, html: h}} = user) {   // New Way With Some Changes
+//     console.log(n);
+//     console.log(a);
+//     console.log(c);
+//     console.log(s, h);
+// };
+
+
 
 
 
