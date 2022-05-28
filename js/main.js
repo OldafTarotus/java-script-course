@@ -2890,10 +2890,51 @@
 //     console.log(`My adress 2 ${al}`);
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    - Set Data Type
+    Syntax: new Set(Interable)
+    --- Object To Store Unique Values
+    --- Cannot Access Elements By Index
 
+    Properties:
+    - Size
 
+    Methods:
+    - Add
+    - Delete
+    - Clear
+    - Has
+*/
 
+// let mydata = [1, 1, 1, 2, 2, 3, 3, 3, "A"];
+// // let myunidata = new Set([1, 1, 1, 2, 2, 3, 3, 3]);
+// // let myunidata = new Set(mydata);
+// // let myunidata = new Set().add(1).add(2).add(3).add(4).add(5).add(6);
+// let myunidata = new Set();
+// myunidata.add(1).add(2).add(3).add(4).add("A");
 
+// console.log(mydata);
+
+// console.log(myunidata);
+
+// console.log(myunidata.size);
+
+// console.log(mydata[0]);
+
+// console.log(myunidata[0]);
+
+// myunidata.delete(2);
+// myunidata.delete(20);
+// myunidata.clear();
+// console.log(myunidata.delete(2));
+// console.log(myunidata.delete(20));
+// console.log(myunidata.clear());
+
+// console.log(myunidata);
+// console.log(myunidata.size);
+
+// console.log(myunidata.has("A"));
+// -------------------------------------------------------------------------------------------------------------------------
 
 
 
