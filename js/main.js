@@ -3050,3 +3050,46 @@
 // console.log(mynewmap);
 // -------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Map Data Type
+    Methods
+    - Set
+    - Get
+    - Delete
+    - Clear
+    - Has
+
+    Properties
+    - Size
+*/
+
+// let mymap = new Map([
+//     [10, "Number"],
+//     ["Name", "String"],
+//     [false, "boolean"],
+// ]);
+
+// Or 
+// mymap.set(10, "Number");
+// mymap.set("Name", "String");
+// mymap.set(fales);
+
+// console.log(mymap);
+// console.log(mymap.get(10));
+// console.log(mymap.get("Name"));
+// console.log(mymap.get(false));
+
+// console.log("#####");
+// console.log(mymap.has(false));
+// console.log("#####");
+
+// console.log(mymap.size);
+// console.log(mymap.delete(10));
+// console.log(mymap.size);
+// mymap.clear();
+// console.log(mymap.size);
+// -------------------------------------------------------------------------------------------------------------------------
+
+
+
+
