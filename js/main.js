@@ -3274,3 +3274,46 @@
 // console.log(locationcheck);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Spread Operator => ...Iterable
+    "Allow Iterable To Expand In Place"
+*/
+
+// Spread With String => Expand String
+// console.log("Ahmed");
+// console.log(..."Ahmed");
+// console.log([..."Ahmed"]);
+
+// // Concatenate Arrays
+// let myarray1 = [1, 2, 3];
+// let myarray2 = [4, 5, 6];
+// let allarray = [...myarray1, ...myarray2];
+// console.log(allarray);
+// console.log([...myarray1, ...myarray2]);
+
+// // Copy Array
+// let myCopyArray = [...myarray1];
+// console.log(myCopyArray);
+
+// // Push Inside Array
+// let allFriend = ["Sayed", "Amro", "Maged"];
+// let newFriend = ["Ahmed", "Mohamed"];
+// allFriend.push(...newFriend);
+// console.log(allFriend);
+
+// // Use With Math Object
+// let mynum = [10, 20, 100, 200, 1000];
+// console.log(Math.max(...mynum));
+
+// // Spread With Objects => Merge Objects
+// let object1 = {
+//     a: 1,
+//     b: 2,
+// };
+// let object2 = {
+//     c: 3,
+//     D: 4,
+// };
+// console.log({...object1, ...object2, e: 5});
+
+
