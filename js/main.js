@@ -3191,5 +3191,58 @@
 // console.log(myArray);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Array Methods
+    - Array.some(Callbackfunc(Element, Index, Array), This Aregument)
+    -- Callbackfun => Function To Run On Every Element On The Given Array
+    --- Element => The Current Element Element
+    --- Index => Index Of Current Element
+    --- Array => The Current Array Working With
+    -- This Argument => Value To Use As This When Executing Callbackfunc
+
+    Using
+    - Check If Element Exists In Array
+    - Check If Number In Range
+*/
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 19];
+// let mynum = 8;
+
+// // let check = num.some(function (e) {
+// //     console.log("test");
+// //     return e > 5;
+// // });
+
+// let check = num.some(function (e) {
+//     return e > this;
+// }, mynum);
+
+// // or 
+
+// // let check = num.some((e) => e > 5);
+
+// console.log(check);
+
+// function checkvalue(arr, val) {
+//     return arr.some(function(e) {
+//     return e === val
+//     });
+// }
+
+// console.log(checkvalue(num, 20));
+// console.log(checkvalue(num, 5));
+
+// let range = {
+//     min: 10,
+//     max: 20,
+// };
+// let checknum = num.some(function(e) {
+//     // console.log(this.min);
+//     // console.log(this.max);
+//     return e > this.min && e > this.max
+// }, range);
+//-------------------------------------------------------------------------------------------------------------------------
+
+
 
 
