@@ -3243,6 +3243,34 @@
 // }, range);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Array Methods
+    - Array.every(Callbackfunc(Element, Index, Array), This Aregument)
+    -- Callbackfun => Function To Run On Every Element On The Given Array
+    --- Element => The Current Element To Process
+    --- Index => Index Of Current Element
+    --- Array => The Current Array Working With
+    -- This Argument => Value To Use As This When Executing Callbackfunc
+*/
 
+// const locations = {
+//     40: "Place1",
+//     30: "Place2",
+//     20: "Place3",
+//     10: "Place4",  // or 19
+// };
 
+// let minlocation = 15;
+
+// let locationarray = Object.keys(locations);
+// console.log(locationarray);
+
+// let locationnumber = locationarray.map((n) => +n);
+// console.log(locationnumber);
+
+// let locationcheck = locationnumber.every(function(e) {
+//     return e > this;
+// }, minlocation);
+// console.log(locationcheck);
+//-------------------------------------------------------------------------------------------------------------------------
 
