@@ -3370,5 +3370,47 @@
 // console.log(myString.match(regex));
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Regular Expression
+    Ranges
 
+    - Part 1
+    (X|Y)  => X Or Y
+    [0-9]  => 0 To 9
+    [^0-9] => Any Character Not 0 To 9
+    Practice
+
+    - Part 2
+    [a-z]
+    [^a-z]
+    [A-Z]
+    [^A-Z]
+    [abc]
+    [^abc]
+*/
+
+// let tld = ("Com Net Org Info Code Io It");
+// let tldRe = /com|org|io/ig;
+// console.log(tld.match(tldRe));
+
+// let nums = "1234567890";
+// // let numRe = /[0-9]/g;
+// // or
+// // let numRe = /[0-9]/;
+// // or
+// let numRe = /[0-2]/g;
+// console.log(nums.match(numRe));
+
+// let Notnum = "1234567890";
+// let NotnumRe = /[^0|2]/g;
+// console.log(Notnum.match(NotnumRe));
+
+// let SpecialNum = "1!2@3#4$5%6^7&8*90";
+// let SpecialNumRe = /[^0-9]/g;
+// console.log(SpecialNum.match(SpecialNumRe));
+
+// let practiceNum = "Os1 Os1Os Os2 Os8Os";
+// let practiceNumRe = /os[5-9]os/ig;
+// console.log(practiceNum.match(practiceNumRe));
+//-------------------------------------------------------------------------------------------------------------------------
 
