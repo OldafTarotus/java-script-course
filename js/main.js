@@ -3454,3 +3454,27 @@
 // console.log(myString.match(specials));
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Regular Expression
+    Character Classes
+    .  => matches any character, except newlinw or other line terminators.
+    \W => matches word characters [a-z, A-Z, 0-9 And Underscore]
+    \W => matches Non word characters
+    \d => matches digits from 0 to 9.
+    \D => matches non-digit characters.
+    \s => matches whitespace character.
+    \S => matches non whitespace character.
+*/
+
+// let email = `O@@@...com O@g.com O@g.net A@Y.com O-g.com o@s.org 1@1.com`;
+
+// let dot = /./g;
+// let Character = /\w/g;
+// let nonCharacter = /\W/g;
+// let valid = /\w@\w(.com|.net)/g;
+
+// console.log(email.match(dot));
+// console.log(email.match(Character));
+// console.log(email.match(nonCharacter));
+// console.log(email.match(valid));
+//-------------------------------------------------------------------------------------------------------------------------
