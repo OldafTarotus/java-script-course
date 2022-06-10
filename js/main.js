@@ -3489,7 +3489,7 @@
     pattern.test(input)
 */
 
-let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo"
+// let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo"
 // let re = /spam/ig;
 // let rebstart = /\bspam/ig;
 // let rebend = /spam\b/ig;
@@ -3542,7 +3542,26 @@ let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo"
 // console.log(serials.match(/s\d{4,}s/ig)); // S[At Least Four]S
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Regular Expression
+    Quantifiers
+    $  => End With Something
+    ^  => Start With Something
+    ?= => Followed By Something
+    ?! => Not Followed By Something
+*/
 
+// let myString = "We Love Programming";
+// let names = "1OsamaZ 2AhmedZ 3Mohammed 4MoustafaZ 5GamalZ";
+
+// console.log(/ing$/ig.test(myString));
+// console.log(/^we/ig.test(myString));
+// console.log(/lz$/ig.test(names));
+// console.log(/^\d/ig.test(names));
+
+// console.log(names.match(/\d\w{5}(?=Z)/ig));
+// console.log(names.match(/\d\w{8}(?!Z)/ig));
+//-------------------------------------------------------------------------------------------------------------------------
 
 
 
