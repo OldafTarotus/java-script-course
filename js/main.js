@@ -3577,6 +3577,24 @@
 // console.log(txt.replaceAll(/@/ig, "JavaScript"));
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Regular Expression
+    - Input From Validation Practice
+*/
+
+// document.getElementById("register").onsubmit = function () {
+//     let phoneInput = document.getElementById("phone").value;
+//     let phoneRe = /\(\d{4}\)\s\d{3}-\d{4}/ig;    // (1234) 567-8910
+//     let valeResult = phoneRe.test(phoneInput);
+//     if(valeResult === false) {
+//         return false;
+//     } else {
+//         return true;
+//     }
+// }
+//-------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
