@@ -3594,6 +3594,56 @@
 // }
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Constructor Function
+*/
+
+// function User(id, username, salary) {
+//     this.i = id;
+//     this.u = username;
+//     this.s = salary + 1000;
+// };
+
+// let userOne = new User(100, "Ahmed", 3000);
+// let userTwo = new User(101, "Mohamed", 6000);
+// let userThree = new User(102, "Oldaf", 9000);
+
+// console.log(userOne.i);
+// console.log(userOne.u);
+// console.log(userOne.s);
+
+// console.log(userTwo.i);
+// console.log(userTwo.u);
+// console.log(userTwo.s);
+
+// console.log(userThree.i);
+// console.log(userThree.u);
+// console.log(userThree.s);
+
+
+// const userOne = {      // all this is old way 
+//     id: 100,
+//     username: "Ahmed",
+//     salary: 3000,
+// };
+
+// const userTwo = {
+//     id: 101,
+//     username: "Mohamed",
+//     salary: 6000,
+// };
+
+// const userthree = {
+//     id: 102,
+//     username: "Oldaf",
+//     salary: 9000,
+// };
+
+// console.log(userOne);
+// console.log(userTwo);
+// console.log(userthree);
+//-------------------------------------------------------------------------------------------------------------------------
+
 
 
 
