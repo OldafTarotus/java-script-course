@@ -3644,6 +3644,27 @@
 // console.log(userthree);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Constructor Function
+    - New Syntax
+*/
+
+// class User {
+//     constructor(id, username, salary) {
+//         this.i = id;
+//         this.u = username;
+//         this.s = salary;
+//     }
+// };
+
+// let one = new User(100, "Ahmed", 3000);
+// console.log(one.i);
+// console.log(one.u);
+// console.log(one.s);
+
+// console.log(one instanceof User);
+// console.log(one.constructor === User);
+//-------------------------------------------------------------------------------------------------------------------------
 
 
 
