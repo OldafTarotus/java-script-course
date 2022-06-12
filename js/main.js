@@ -3666,6 +3666,41 @@
 // console.log(one.constructor === User);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Constructor Function
+    - Deal With Properties And Methods
+*/
+
+// class User {
+//     constructor(id, username, salary) {
+//         // Properties
+//         this.i = id;
+//         this.u = username || "unknown";
+//         this.s = salary < 6000 ? salary + 500 : salary;
+//         this.msg = function () {
+//             return `Hello ${this.u} Your Salary is ${this.s}`;
+//         };
+//     };
+//     // Methods
+//     writemsg() {
+//         return `Hello ${this.u} Your Salary is ${this.s}`;
+//     };
+// };
+
+// let One = new User(100, "", 3000);
+// let Two = new User(101, "Mohamed", 6000);
+
+// console.log(One);
+// console.log(Two);
+// console.log(One.msg());
+// console.log(One.writemsg());
+
+// console.log(Two);
+// console.log(Two);
+// console.log(Two.msg);  // Native Code
+// console.log(Two.writemsg);  // Native Code
+//-------------------------------------------------------------------------------------------------------------------------
+
 
 
 
