@@ -3701,8 +3701,48 @@
 // console.log(Two.writemsg);  // Native Code
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Constructor Function
+    - Update Properties
+    - Built in Constructors
+*/
+
+// class User {
+//     constructor(id, username, salary) {
+//         this.i = id;
+//         this.u = username;
+//         this.s = salary;
+//     }
+//     updatename(NewName) {
+//         this.u = NewName;
+//     }
+// }
 
 
+// let One = new User(100, "Ahmed", 3000);
+// // let Two = new User()
+
+// console.log(One.u);
+
+// One.updatename("Mohamed");
+// console.log(One);
+
+// let StrOne = "Oldaf";
+// let StrTwo = new String("Oldaf");
+
+// console.log(typeof StrOne);
+// console.log(typeof StrTwo);
+
+// console.log(StrOne instanceof String);
+// console.log(StrTwo instanceof String);
+
+// console.log(StrOne.constructor === String);
+// console.log(StrTwo.constructor === String);
+//-------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Constructor Function
+*/
 
 
 
