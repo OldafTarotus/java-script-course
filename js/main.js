@@ -3741,8 +3741,39 @@
 //-------------------------------------------------------------------------------------------------------------------------
 
 /*
-    Constructor Function
+    Class
+    - Static Properties And Methods
 */
+
+// class User {
+//     // Static Property
+//     static count = 0;
+//     constructor(id, username, salary ) {
+//         this.i = id;
+//         this.u = username;
+//         this.s = salary;
+//         User.count++;
+//     }
+//     // Static Methods
+//     static sayHello() {
+//         return `Hello Work From Js Ahmed Camp`;
+//     }
+//     static countMember() {
+//         return `${this.count} Member Created`;
+//     }
+// }
+
+// let One = new User(100, "Ahmed", 3000); 
+// let Two = new User(101, "Mohamed", 6000 );
+
+// console.log(One.u);
+// console.log(Two.u);
+// console.log(One.count);
+// console.log(User.sayHello());
+// console.log(User.countMember());
+//-------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
