@@ -3856,6 +3856,33 @@
 // console.log(Two.getSalary() * 2);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Prototype
+    - Introduction
+    - Prototypes are the mechanism by which JavaScript objects
+    inherit features from one another.
+*/
+
+// class User {
+//     constructor(id, username) {
+//         this.i = id;
+//         this.u = username;
+//     }
+//     sayHello() {
+//         return `Hello ${this.u}`;
+//     }
+// }
+
+// let One = new User(100, "Ahmed")
+
+// console.log(One.u);
+// console.log(One.sayHello());
+
+// console.log(User.prototype);
+
+// let str = "Oldaf";
+// console.log(String.prototype);
+//-------------------------------------------------------------------------------------------------------------------------
 
 
 
