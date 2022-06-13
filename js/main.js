@@ -3773,7 +3773,47 @@
 // console.log(User.countMember());
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Class
+    - Inheritance
+*/
+// parent class
+// class User {
+//     constructor(id, username) {
+//         this.i = id;
+//         this.u = username;
+//     }
+//     sayHello() {
+//         return `Hello ${this.u}`;
+//     }
+// };
 
+// // Derived class
+// class admin extends User {
+//     constructor(id, username, permissions) {
+//         super(id, username);
+//         this.p = permissions;
+//     }
+// }
+
+// // Derived class
+// class superMan extends admin {
+//     constructor(id, username, permissions, ability) {
+//         super(id, username, permissions);
+//         this.a = ability;
+//     }
+    
+// }
+
+// let One = new User(100, "Ahmed");
+// let Two = new admin(101, "Mohamed", 1);
+// let Three = new superMan(102, "Naser", 1, 1);
+
+// console.log(One.u);
+// console.log(Two.u);
+// console.log(Three.u);
+// console.log(One.sayHello());
+//-------------------------------------------------------------------------------------------------------------------------
 
 
 
