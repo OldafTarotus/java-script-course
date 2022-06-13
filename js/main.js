@@ -3884,5 +3884,35 @@
 // console.log(String.prototype);
 //-------------------------------------------------------------------------------------------------------------------------
 
+/*
+    Prototype
+    - Add To Prototype Chain
+    - Extend Built In Constructors Features
+*/
 
+class User {
+    constructor(id, username) {
+    this.i = id;
+    this.u = username;
+}
+    sayHello() {
+    return `Hello ${this.u}`;
+    }
+}
 
+let One = new User(100, "Ahmed");
+console.log(One.u);
+console.log(User.prototype);
+console.log(One);
+
+User.prototype.sayWelcome = function () {
+    return `Welcome ${this.u}`;
+}
+
+Object.prototype.honey = "Sondos";
+
+String.prototype.AddDotBeforeAndAfter = function (ele) {
+    return `.${this}.`;
+}
+
+let myString = "Sondos";
