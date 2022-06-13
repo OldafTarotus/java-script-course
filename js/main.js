@@ -3838,10 +3838,24 @@
 //     }
 // }
 
+// // Derived class
+// class admin extends User {
+//     constructor(id, username, eSalary, permissions) {
+//         super(id, username, eSalary);
+//         this.p = permissions;
+//     }
+// }
+
 // let One = new User(100, "Ahmed", "500 gneh");
+// let Two = new admin(101, "Mohamed", "1000 gneh", 1);
 
 // console.log(One.u);
 // console.log(One.getSalary() * .3);
+
+// console.log(Two.u);
+// console.log(Two.getSalary() * 2);
+//-------------------------------------------------------------------------------------------------------------------------
+
 
 
 
