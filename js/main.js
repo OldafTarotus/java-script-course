@@ -3890,29 +3890,68 @@
     - Extend Built In Constructors Features
 */
 
-class User {
-    constructor(id, username) {
-    this.i = id;
-    this.u = username;
-}
-    sayHello() {
-    return `Hello ${this.u}`;
-    }
-}
+// class User {
+//     constructor(id, username) {
+//     this.i = id;
+//     this.u = username;
+// }
+//     sayHello() {
+//     return `Hello ${this.u}`;
+//     }
+// }
 
-let One = new User(100, "Ahmed");
-console.log(One.u);
-console.log(User.prototype);
-console.log(One);
+// let One = new User(100, "Ahmed");
+// console.log(One.u);
+// console.log(User.prototype);
+// console.log(One);
 
-User.prototype.sayWelcome = function () {
-    return `Welcome ${this.u}`;
-}
+// User.prototype.sayWelcome = function () {
+//     return `Welcome ${this.u}`;
+// }
 
-Object.prototype.honey = "Sondos";
+// Object.prototype.honey = "Sondos";
 
-String.prototype.AddDotBeforeAndAfter = function (ele) {
-    return `.${this}.`;
-}
+// String.prototype.AddDotBeforeAndAfter = function (ele) {
+//     return `.${this}.`;
+// }
 
-let myString = "Sondos";
+// let myString = "Sondos";
+//-------------------------------------------------------------------------------------------------------------------------
+
+/*
+    Object Meta Data And Descriptor
+    - writable
+    - enumerable
+    - configurable [Cannot Delete Or Reconfigure]
+*/
+
+// const myObject = {
+//     a: 1,
+//     n: 2
+// };
+
+// // Object.defineProperty(myObject, "c", {
+// //     writable: false,
+// //     enumerable: true,
+// //     configurable: false,
+// //     value: 3,
+// // });
+
+// Object.defineProperty(myObject, "c", {
+//     writable: false,
+//     enumerable: true,
+//     configurable: true,  // <= Cannot redefine property
+//     value: 3,
+// });
+
+// myObject.c = 100;
+
+// console.log(delete myObject.c);
+
+// for (let prop in myObject) {
+//     console.log(prop, myObject[prop]);
+// }
+
+// console.log(myObject);
+//-------------------------------------------------------------------------------------------------------------------------
+
